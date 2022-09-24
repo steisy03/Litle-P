@@ -123,3 +123,31 @@ span.colorResaltar {
     color: #fff;
     cursor: pointer;
 }
+
+nav.navbar{
+    background-color: #BAF2BB;
+ }
+ 
+ .btn-header {
+    background-color: #fff;
+    color: #0A424E !important;
+    font-weight: 500;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    margin-left: .5rem;
+    text-align: center;
+    border-radius: 2rem;
+ }
+ 
+ .btn-header:hover {
+    background-color: #f7f7f7;
+    color: #0e6d83 !important;
+ }
+ 
+ #svg-header {
+    background-image: url("./img/wave-header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 10rem;
+ }
