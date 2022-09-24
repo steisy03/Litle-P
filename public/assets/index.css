@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('fonts/QuicksandVariableFont_wght.eot');
+    src: url('fonts/QuicksandVariableFont_wght.eot') format('embedded-opentype'), url('fonts/QuicksandVariableFont_wght.woff2') format('woff2'), url('fonts/QuicksandVariableFont_wght.woff') format('woff'), url('fonts/QuicksandVariableFont_wght.ttf') format('truetype'), url('fonts/QuicksandVariableFont_wght.svg#QuicksandVariableFont_wght') format('svg');
+}
+
+.mt-10 {
+    margin-top: 4rem!important;
+}
+
+.img-200 {
+    width: 200px;
+    height: 200px;
+}
+
+.carousel-control-next {
+    justify-content: end;
+}
+
+.carousel-control-prev {
+    justify-content: start;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3%;
+}
+
+#carouselExampleControls.card img:hover {
+    opacity: .5;
+}
+
+.size {
+    width: 65;
+    height: fit-content;
+}
+
+.bg-green {
+    background: #e1ecf7;
+}
+
+.contenedor-principal {
+    position: relative;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif!important;
+    border: 1px solid #C3CCD0;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0%), 0 0 10px rgb(0 0 0 / 10%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.tituloPrincipal {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contenedor-principal h3 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.contenedor-principal svg {
+    vertical-align: unset !important;
+}
+
+.contenedor-principal h5 {
+    font-weight: bold;
+}
+
+.contenedor-principal p {
+    font-size: 1.2rem;
+}
+
+.colorResaltar {
+    color: #71a5de;
+}
+
+span.colorResaltar {
+    margin-right: 13px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-item {
+    border: none!important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #71a5de;
+    background-color: white;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+    box-shadow: none
+}
