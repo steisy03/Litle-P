@@ -4,6 +4,10 @@
     src: url('fonts/QuicksandVariableFont_wght.eot') format('embedded-opentype'), url('fonts/QuicksandVariableFont_wght.woff2') format('woff2'), url('fonts/QuicksandVariableFont_wght.woff') format('woff'), url('fonts/QuicksandVariableFont_wght.ttf') format('truetype'), url('fonts/QuicksandVariableFont_wght.svg#QuicksandVariableFont_wght') format('svg');
 }
 
+body {
+    font-family: 'Quicksand', sans-serif!important;
+}
+
 .mt-10 {
     margin-top: 4rem!important;
 }
@@ -42,7 +46,6 @@
 .contenedor-principal {
     position: relative;
     background-color: white;
-    font-family: 'Quicksand', sans-serif!important;
     border: 1px solid #C3CCD0;
     box-shadow: 0 1px 0 rgb(255 255 255 / 0%), 0 0 10px rgb(0 0 0 / 10%);
     margin-top: 2rem;
@@ -104,4 +107,8 @@ span.colorResaltar {
     z-index: 3;
     outline: 0;
     box-shadow: none
+}
+
+.bg-black {
+    background-color: black;
 }
