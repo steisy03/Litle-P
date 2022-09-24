@@ -112,3 +112,14 @@ span.colorResaltar {
 .bg-black {
     background-color: black;
 }
+
+.funcionesEstomago p {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.funcionesEstomago .card:hover {
+    background-color: #F2BAC9;
+    color: #fff;
+    cursor: pointer;
+}
