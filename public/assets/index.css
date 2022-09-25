@@ -225,9 +225,25 @@ nav.navbar {
 #actividadesRecomendadas .card:hover {
     cursor: pointer;
     color: #fff;
-    background-color: #669bbc;
+    background-color: #003049;
 }
 
 #actividadesRecomendadas .card .card-body {
     padding: 0.5rem 0.5rem;
+}
+
+.fillCheckFull {
+    display: none;
+}
+
+#actividadesRecomendadas .card:hover .fillCheckFull {
+    display: inline;
+}
+
+#actividadesRecomendadas .card:hover .fillCheck {
+    display: none;
+}
+
+#carouselExampleControls .card:hover {
+    opacity: .5;
 }
