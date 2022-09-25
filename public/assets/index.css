@@ -227,3 +227,7 @@ nav.navbar {
     color: #fff;
     background-color: #669bbc;
 }
+
+#actividadesRecomendadas .card .card-body {
+    padding: 0.5rem 0.5rem;
+}
