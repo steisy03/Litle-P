@@ -207,3 +207,23 @@ nav.navbar {
 #anterior:focus {
     box-shadow: none;
 }
+
+#actividadesRecomendadas p {
+    margin-bottom: 0;
+}
+
+#actividadesRecomendadas svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: sub!important;
+}
+
+#actividadesRecomendadas span {
+    font-size: 1.2rem;
+}
+
+#actividadesRecomendadas .card:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #669bbc;
+}
