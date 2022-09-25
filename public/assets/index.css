@@ -40,13 +40,13 @@ body {
 }
 
 .bg-green {
-    background: #e1ecf7;
+    background: #fdf0d5;
 }
 
 .contenedor-principal {
     position: relative;
     background-color: white;
-    border: 1px solid #C3CCD0;
+    border: none;
     box-shadow: 0 1px 0 rgb(255 255 255 / 0%), 0 0 10px rgb(0 0 0 / 10%);
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -75,7 +75,7 @@ body {
 }
 
 .colorResaltar {
-    color: #71a5de;
+    color: #669bbc;
 }
 
 span.colorResaltar {
@@ -119,16 +119,16 @@ span.colorResaltar {
 }
 
 .funcionesEstomago .card:hover {
-    background-color: #F2BAC9;
+    background-color: #669bbc;
     color: #fff;
     cursor: pointer;
 }
 
-nav.navbar{
-    background-color: #BAF2BB;
- }
- 
- .btn-header {
+nav.navbar {
+    background-color: #003049;
+}
+
+.btn-header {
     background-color: #fff;
     color: #0A424E !important;
     font-weight: 500;
@@ -137,17 +137,73 @@ nav.navbar{
     margin-left: .5rem;
     text-align: center;
     border-radius: 2rem;
- }
- 
- .btn-header:hover {
+}
+
+.btn-header:hover {
     background-color: #f7f7f7;
     color: #0e6d83 !important;
- }
- 
- #svg-header {
+}
+
+#svg-header {
     background-image: url("./img/wave-header.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     min-height: 10rem;
- }
+}
+
+.contenido li {
+    list-style: none;
+}
+
+.contenido li {
+    color: #669bbc;
+}
+
+.contenido li a:hover {
+    color: black;
+}
+
+
+/* card */
+
+.card-input-element {
+    display: none;
+}
+
+.card-input {
+    text-align: center;
+}
+
+.card-input:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #669bbc;
+}
+
+.card-input-element:checked+.card-input {
+    background-color: #003049;
+    color: #fff;
+}
+
+.labelBlock {
+    width: 100%;
+}
+
+#siguiente,
+#anterior {
+    background: #003049;
+    color: white;
+}
+
+#siguiente:hover,
+#anterior:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #669bbc;
+}
+
+#siguiente:focus,
+#anterior:focus {
+    box-shadow: none;
+}
