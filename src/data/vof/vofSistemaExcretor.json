@@ -1,0 +1,42 @@
+{
+	"type": "vof",
+    "description": "Verdadero o falso. Demuestra lo aprendido sobre el sistema excretor, indicando si lo que se dice es verdadero o falso.",
+	"score": 5,
+	"questions": [
+        {
+            "id": 1,
+            "description": "Las sustancias que no son útiles para el organismo se quedan en el cuerpo.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 2,
+            "description": "El sistema excretor elimina los desechos del organismo, expulsándolos afuera.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 3,
+            "description": "Las glándulas sudoríparas tienen como principal función regular nuestra temperatura corporal y para eso producen el sudor.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 4,
+            "description": "Los riñones recogen los desechos de la sangre y forman la orina, también llamada “pipi”.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 5,
+            "description": "La uretra es un conducto que lleva la orina desde la vejiga hacia el exterior del cuerpo cuando orinamos.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        }
+    ]
+}

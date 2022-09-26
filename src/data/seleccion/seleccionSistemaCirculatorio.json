@@ -1,0 +1,105 @@
+{
+    "id": 1,
+    "description": "Selecciona la respuesta correcta. Lee detenidamente las preguntas o afirmaciones y selecciona la respuesta correcta en cada caso.    ",
+	"type": "multiple",
+    "mode":"TXI",
+	"score": 4,
+	"questions": [
+        {
+            "id": 1,
+            "description": "¿Por dónde transita la sangre en el cuerpo?",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "arterias y venas",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "corazón",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "hígado",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 2,
+            "description": "¿Cuál es la arteria más grande y ancha?",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "Aorta",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "venas",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "corazón",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 3,
+            "description": "Se encarga de bombear la sangre al resto del cuerpo.",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "corazón ",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "vasos capilares",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "venas",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 3,
+            "description": "Es una enfermedad circulatoria común.",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "diarrea",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "infarto",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "diabetes",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        }
+    ]
+}

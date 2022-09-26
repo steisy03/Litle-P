@@ -1,0 +1,81 @@
+{
+    "id": 1,
+    "description": "Selecciona la respuesta correcta. Lee detenidamente las preguntas o afirmaciones y selecciona la respuesta correcta en cada caso.",
+	"type": "multiple",
+    "mode":"IXT",
+	"score": 3,
+	"questions": [
+        {
+            "id": 1,
+            "description": "El órgano que ves en pantalla es: ",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "médula espinal",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "cerebro",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "nervios",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 2,
+            "description": "Este órgano sirve de soporte al cuerpo.",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "médula espinal",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "cerebro",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "nervios",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 3,
+            "description": "Son cables que envían señales al cerebro.",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "médula espinal",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "cerebro",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "nervios",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        }
+    ]
+}

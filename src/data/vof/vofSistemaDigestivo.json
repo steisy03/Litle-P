@@ -1,0 +1,49 @@
+{
+	"type": "vof",
+    "description": " Verdadero o falso. Según tus conocimientos sobre el sistema digestivo, indica si lo que se dice a continuación es verdadero o falso.",
+	"score": 5,
+	"questions": [
+        {
+            "id": 1,
+            "description": "El sistema digestivo es el que se encarga de procesar o digerir los alimentos que consumimos o comemos para extraer de ellos los nutrientes que el organismo necesita.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 2,
+            "description": "El aparato digestivo está constituido por un tubo, el tubo digestivo.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 3,
+            "description": "La boca es el primer componente del sistema digestivo, en la que se introducen los alimentos, se mastican con ayuda de los dientes y se mueven con la lengua.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 4,
+            "description": "El estómago actúa como una batidora, mezclando y triturando todas las bolitas de comida procedentes del esófago en trozos cada vez más pequeños.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 5,
+            "description": "El intestino grueso es el que convierte los alimentos en nutrientes, para que tengamos energía y fuerza. ",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 6,
+            "description": "El intestino grueso es, efectivamente, más grueso que el intestino delgado, y es casi la última parada en el tubo digestivo.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        }
+    ]
+}

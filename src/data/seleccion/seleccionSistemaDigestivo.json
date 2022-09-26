@@ -1,0 +1,81 @@
+{
+    "id": 1,
+    "description": "Adivina la respuesta. A continuación se te dan una serie de pistas para que selecciones la respuesta correcta en cada caso.",
+	"type": "multiple",
+    "mode":"TXI",
+	"score": 3,
+	"questions": [
+        {
+            "id": 1,
+            "description": "El órgano del sistema digestivo por el que entran los alimentos al cuerpo, se llama:",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "Boca",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "Esófago",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "Estómago",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 2,
+            "description": "Es el órgano del sistema digestivo que convierte los alimentos en nutrientes para tener fuerza y energía.",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "Intestino delgado",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "Intestino grueso",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "Faringe",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 3,
+            "description": "Es el órgano que fabrica unos jugos que ayudan al cuerpo a digerir las grasas y las proteínas.",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "El páncrea",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "La boca",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "El hígado",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        }
+    ]
+}

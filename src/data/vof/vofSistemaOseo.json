@@ -1,0 +1,42 @@
+{
+	"type": "vof",
+    "description": "Verdadero o falso. Demuestra lo aprendido sobre el sistema óseo, indicando si lo que se dice es verdadero o falso.",
+	"score": 5,
+	"questions": [
+        {
+            "id": 1,
+            "description": "El sistema óseo de un adulto, también conocido como el esqueleto humano, está compuesto por 206 huesos. ",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 2,
+            "description": "Sin el sistema óseo, podríamos mantenernos de pie y caminar.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 3,
+            "description": "Los huesos protegen los órganos vitales del cuerpo.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 4,
+            "description": "Las articulaciones nos permiten flexionar y girar algunas partes de nuestro cuerpo.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 5,
+            "description": "El esqueleto está formado por huesos.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        }
+    ]
+}

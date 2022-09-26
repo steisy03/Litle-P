@@ -1,0 +1,42 @@
+{
+	"type": "vof",
+    "description": "Verdadero o falso. Demuestra lo aprendido sobre el sistema nervioso, indicando si lo que se dice es verdadero o falso.",
+	"score": 5,
+	"questions": [
+        {
+            "id": 1,
+            "description": "El sistema nervioso controla todo lo que haces; por ejemplo, la respiración, el caminar, lo que piensas y lo que sientes.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 2,
+            "description": "El funcionamiento básico del sistema nervioso depende en gran medida de unas células diminutas llamadas neuronas.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 3,
+            "description": "El cerebro controla todo el cuerpo.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 4,
+            "description": "Los nervios del cuerpo son como cables que llevan señales de comunicación o impulsos por todo el cuerpo.",
+            "answer": "V",
+            "score": 1,
+            "imagen": ""
+        },
+        {
+            "id": 5,
+            "description": "La médula espinal sirve de soporte para el cuerpo.",
+            "answer": "F",
+            "score": 1,
+            "imagen": ""
+        }
+    ]
+}
