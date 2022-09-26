@@ -1,7 +1,9 @@
 import Route from '../libs/route';
-import {sistemaDigestivo} from '../data/contenido';
+import { sistemaDigestivo } from '../data/contenido';
+import { tablaContenido } from '../template/links';
 
-let contenidos;
+let contenidos, tablaContenidos;
+
 class Contenido extends Route {
     constructor() {
         super("contenido", {
@@ -13,18 +15,21 @@ class Contenido extends Route {
 
     async whenMounted() {
         //DECLARAR
-        contenidos = document.getElementById( 'contenidos' );
+        contenidos = document.getElementById('contenidos');
+        tablaContenidos = document.getElementById('tablaContenidos');
         //
-        const url = window.location.search;
-        const urlParams = new URLSearchParams( url );
-        const option = urlParams.get( 'sistema' );
-        console.log(option);
-        //
-        if( option == 'sistema-digestivo' ){
-            contenidos.innerHTML = sistemaDigestivo;
-        } else if ( option == 'sistema-respiratorio' ){
 
-        }else{
+        tablaContenidos.innerHTML = tablaContenido;
+        const url = window.location.search;
+        const urlParams = new URLSearchParams(url);
+        const option = urlParams.get('sistema');
+
+        //
+        if (option == 'sistema-digestivo') {
+            contenidos.innerHTML = sistemaDigestivo;
+        } else if (option == 'sistema-respiratorio') {
+
+        } else {
             window.location = '/';
         }
     }
