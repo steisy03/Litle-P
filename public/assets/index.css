@@ -247,3 +247,7 @@ nav.navbar {
 #carouselExampleControls .card:hover {
     opacity: .5;
 }
+
+.botones svg {
+    vertical-align: middle!important;
+}
