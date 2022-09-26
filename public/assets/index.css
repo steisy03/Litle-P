@@ -57,6 +57,11 @@ body {
     font-weight: bold;
 }
 
+.tituloContenidos h3 {
+    font-size: .5rem!important;
+    font-weight: bold;
+}
+
 .contenedor-principal h3 {
     font-weight: bold;
     font-size: 1.4rem;
@@ -185,7 +190,10 @@ nav.navbar {
     background-color: #003049;
     color: #fff;
 }
+
+
 /* fin card respuestas */
+
 .labelBlock {
     width: 100%;
 }
@@ -252,7 +260,9 @@ nav.navbar {
     vertical-align: middle!important;
 }
 
- /* verdadero y falso */
+
+/* verdadero y falso */
+
 .botonesVerdaderoFalso .card-input-element-v-f {
     display: none;
 }
@@ -263,25 +273,33 @@ nav.navbar {
 
 
 /* falso */
+
 .botonesVerdaderoFalso .card-input-element-v-f#falso:checked+.card-input-v-f {
-      color: red;
+    color: red;
 }
 
+
 /* verdadero */
-.botonesVerdaderoFalso .card-input-element-v-f#verdadero:checked+.card-input-v-f{
+
+.botonesVerdaderoFalso .card-input-element-v-f#verdadero:checked+.card-input-v-f {
     color: #198754;
 }
-.botonesVerdaderoFalso .card-body{
+
+.botonesVerdaderoFalso .card-body {
     flex: 1 1 auto;
     padding: .5rem .5rem;
 }
-.botonesVerdaderoFalso .card-input-element-v-f#verdadero +.card-input-v-f:hover {
+
+.botonesVerdaderoFalso .card-input-element-v-f#verdadero+.card-input-v-f:hover {
     cursor: pointer;
     color: #198754;
 }
-.botonesVerdaderoFalso .card-input-element-v-f#falso +.card-input-v-f:hover {
+
+.botonesVerdaderoFalso .card-input-element-v-f#falso+.card-input-v-f:hover {
     cursor: pointer;
-      color: red;
+    color: red;
 }
 
-.botonesVerdaderoFalso .card{border: none;}
+.botonesVerdaderoFalso .card {
+    border: none;
+}
