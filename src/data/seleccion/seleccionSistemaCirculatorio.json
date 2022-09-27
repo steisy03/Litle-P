@@ -1,12 +1,12 @@
 {
-    "id": 1,
-    "description": "Selecciona la respuesta correcta. Lee detenidamente las preguntas o afirmaciones y selecciona la respuesta correcta en cada caso.    ",
+  "id": 1,
+  "description": "Lee detenidamente las preguntas o afirmaciones y selecciona la respuesta correcta en cada caso.",
 	"type": "multiple",
-    "mode":"TXI",
+  "mode":"TXI",
 	"score": 4,
 	"questions": [
         {
-            "id": 1,
+            "id": 0,
             "description": "¿Por dónde transita la sangre en el cuerpo?",
             "imagen": "",
             "options": [
@@ -30,7 +30,7 @@
             "score": 1
         },
         {
-            "id": 2,
+            "id": 1,
             "description": "¿Cuál es la arteria más grande y ancha?",
             "imagen": "",
             "options": [
@@ -54,7 +54,7 @@
             "score": 1
         },
         {
-            "id": 3,
+            "id": 2,
             "description": "Se encarga de bombear la sangre al resto del cuerpo.",
             "imagen": "",
             "options": [
