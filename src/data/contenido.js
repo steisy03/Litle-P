@@ -73,7 +73,7 @@ const sistemaDigestivo = `<div>
     </div>
     <div class="row">
         <div class="col-lg-6">
-            10:08 PM 9/24/2022
+        
         </div>
         <div class="col-lg-6">
             <p>Es por donde pasa el alimento hacia el esófago. Por donde pasan los <strong>alimentos</strong>, después que entran a nuestra boca.
@@ -644,7 +644,7 @@ const sistemaCirculatorio = `<div>
             <p>Cuando el corazón se contrae, se encoge: prueba a cerrar la mano para formar un puño.</p>
         </div>
         <div class="col-lg-6">
-            <img src="" alt="" class="img-fluid">
+            <img src="./assets/img/corazonLatiendo.gif" alt="" class="img-fluid">
         </div>
     </div>
     <div class="row">
@@ -854,7 +854,7 @@ const sistemaCirculatorio = `<div>
         </div>
         <div class="col-lg-6">
             <div class="card">
-                <img src="" alt="" class="card-img-top">
+                <img src="./assets/img/sangre.jpg" alt="" class="card-img-top">
             </div>
         </div>
     </div>
