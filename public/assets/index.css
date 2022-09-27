@@ -275,14 +275,14 @@ nav.navbar {
 /* falso */
 
 .botonesVerdaderoFalso .card-input-element-v-f#falso:checked+.card-input-v-f {
-    color: red;
+    color: #3a86ff;
 }
 
 
 /* verdadero */
 
 .botonesVerdaderoFalso .card-input-element-v-f#verdadero:checked+.card-input-v-f {
-    color: #198754;
+    color: #3a86ff;
 }
 
 .botonesVerdaderoFalso .card-body {
@@ -292,14 +292,18 @@ nav.navbar {
 
 .botonesVerdaderoFalso .card-input-element-v-f#verdadero+.card-input-v-f:hover {
     cursor: pointer;
-    color: #198754;
+    color: #3a86ff;
 }
 
 .botonesVerdaderoFalso .card-input-element-v-f#falso+.card-input-v-f:hover {
     cursor: pointer;
-    color: red;
+    color: #3a86ff;
 }
 
 .botonesVerdaderoFalso .card {
     border: none;
+}
+
+.listaLectura li {
+    list-style: none;
 }

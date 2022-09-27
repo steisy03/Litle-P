@@ -1,4 +1,4 @@
-const sistemaDigestivo = `<div class="p-5">
+const sistemaDigestivo = `<div>
 <div class="row">
     <h2 class="tituloPrincipal">
         Sistema <span class="colorResaltar">Digestivo</span>
@@ -344,7 +344,7 @@ const sistemaDigestivo = `<div class="p-5">
 </div>
 </div>`;
 
-const sistemaRespiratorio = `<div class="p-5">
+const sistemaRespiratorio = `<div>
 <div class="row">
     <h2 class="tituloPrincipal">
         Sistema <span class="colorResaltar">Respiratorio </span>
@@ -525,7 +525,7 @@ const sistemaRespiratorio = `<div class="p-5">
 </div>
 </div>`;
 
-const sistemaCirculatorio = `<div class="p-5">
+const sistemaCirculatorio = `<div>
 <div class="row">
     <h2 class="tituloPrincipal">
         Sistema <span class="colorResaltar">Circulatorio</span>
@@ -860,7 +860,7 @@ const sistemaCirculatorio = `<div class="p-5">
     </div>
 </div>
 </div>`;
-const sistemaOseo = `<div class="p-5">
+const sistemaOseo = `<div>
 <div class="row">
     <h2 class="tituloPrincipal">
         Sistema <span class="colorResaltar">Óseo </span>
@@ -1026,7 +1026,7 @@ const sistemaOseo = `<div class="p-5">
 </div>
 </div>`;
 
-const sistemaExcretor = ` <div class="p-5">
+const sistemaExcretor = ` <div>
 <div class="row">
     <h2 class="tituloPrincipal">
         Sistema <span class="colorResaltar">Excretor </span>
@@ -1312,7 +1312,7 @@ const sistemaExcretor = ` <div class="p-5">
     </div>
 </div>
 </div>`;
-const sistemaNervioso = `<div class="p-5">
+const sistemaNervioso = `<div>
 <div class="row">
     <h2 class="tituloPrincipal">
         Sistema <span class="colorResaltar">Nervioso </span>

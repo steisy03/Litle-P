@@ -1,8 +1,8 @@
 import Route from '../libs/route';
-import { sistemaDigestivo } from '../data/contenido';
+import { sistemaDigestivo, sistemaRespiratorio, sistemaCirculatorio, sistemaOseo, sistemaNervioso, sistemaExcretor } from '../data/contenido';
 import { tablaContenido } from '../template/links';
 
-let contenidos, tablaContenidos;
+let contenidos, tablaContenidos, name;
 
 class Contenido extends Route {
     constructor() {
@@ -17,6 +17,7 @@ class Contenido extends Route {
         //DECLARAR
         contenidos = document.getElementById('contenidos');
         tablaContenidos = document.getElementById('tablaContenidos');
+        name = document.getElementById('name');
         //
 
         tablaContenidos.innerHTML = tablaContenido;
@@ -27,8 +28,23 @@ class Contenido extends Route {
         //
         if (option == 'sistema-digestivo') {
             contenidos.innerHTML = sistemaDigestivo;
-        } else if (option == 'sistema-respiratorio') {
+            name.innerHTML = "Digestivo";
 
+        } else if (option == 'sistema-respiratorio') {
+            contenidos.innerHTML = sistemaRespiratorio;
+            name.innerHTML = "Respiratorio";
+        } else if (option == 'sistema-nervioso') {
+            contenidos.innerHTML = sistemaNervioso;
+            name.innerHTML = "Nervioso";
+        } else if (option == 'sistema-oseo') {
+            contenidos.innerHTML = sistemaOseo;
+            name.innerHTML = "Óseo";
+        } else if (option == 'sistema-circulatorio') {
+            contenidos.innerHTML = sistemaCirculatorio;
+            name.innerHTML = "Circulatorio";
+        } else if (option == 'sistema-excretor') {
+            contenidos.innerHTML = sistemaExcretor;
+            name.innerHTML = "Excretor";
         } else {
             window.location = '/';
         }
