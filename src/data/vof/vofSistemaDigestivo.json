@@ -1,4 +1,5 @@
 {
+    "id": 2,
 	"type": "vof",
     "description": " Verdadero o falso. Según tus conocimientos sobre el sistema digestivo, indica si lo que se dice a continuación es verdadero o falso.",
 	"score": 5,

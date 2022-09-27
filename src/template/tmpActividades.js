@@ -1,4 +1,4 @@
-const seleccionRespuesta = `<div class="col-lg-3 mt-sm-2">
+const seleccionRespuesta = `<div class="col-4 mt-sm-2">
 <label>
     <input type="radio" name="actividadUno" class="card-input-element" />
       <div class="card card-default card-input">

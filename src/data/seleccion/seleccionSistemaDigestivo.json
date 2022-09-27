@@ -1,5 +1,5 @@
 {
-    "id": 1,
+    "id": 2,
     "description": "Adivina la respuesta. A continuación se te dan una serie de pistas para que selecciones la respuesta correcta en cada caso.",
 	"type": "multiple",
     "mode":"TXI",
