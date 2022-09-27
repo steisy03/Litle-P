@@ -11,11 +11,13 @@ class Inicio extends Route {
     }
 
     async whenMounted() {
+
         tablaContenidos = document.getElementById('contenidos');
         tablaContenidos.innerHTML = tablaContenido;
 
         inicioItem = document.getElementById('inicioItem');
         inicioItem.style.display = 'none';
+
 
 
     }
