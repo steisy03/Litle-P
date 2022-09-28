@@ -1,6 +1,6 @@
 import Route from '../libs/route';
 import { sistemaDigestivo, sistemaRespiratorio, sistemaCirculatorio, sistemaOseo, sistemaNervioso, sistemaExcretor } from '../data/contenido';
-import { tablaContenido } from '../template/links';
+import { tablaContenido, tablaContenidoDigestivo } from '../template/links';
 
 let contenidos, tablaContenidos, name;
 
@@ -29,6 +29,7 @@ class Contenido extends Route {
         if (option == 'sistema-digestivo') {
             contenidos.innerHTML = sistemaDigestivo;
             name.innerHTML = "Digestivo";
+            tablaContenidos.innerHTML = tablaContenidoDigestivo;
 
         } else if (option == 'sistema-respiratorio') {
             contenidos.innerHTML = sistemaRespiratorio;
