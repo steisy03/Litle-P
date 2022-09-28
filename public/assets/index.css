@@ -164,6 +164,13 @@ nav.navbar {
     color: #669bbc;
 }
 
+.card-non-border {}
+
+.non-style li {
+    list-style: none;
+    color: #669bbc;
+}
+
 .contenido li a:hover {
     color: black;
 }
