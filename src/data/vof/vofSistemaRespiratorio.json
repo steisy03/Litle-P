@@ -1,50 +1,123 @@
 {
-    "id": 6,
-	"type": "vof",
-    "description": "Verdadero o falso. Según tus conocimientos sobre el sistema respiratorio, indica si lo que se dice a continuación es verdadero o falso.",
-	"score": 5,
-	"questions": [
-        {
-            "id": 1,
-            "description": "El sistema respiratorio es el que nos permite tomar aire y expulsarlo, a través de nuestros pulmones.",
-            "answer": "V",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 2,
-            "description": "Cuando tomamos aire de la naturaleza para llenar los pulmones de oxígeno o vida, estamos realizando el movimiento de inspiración (inhalar). ",
-            "answer": "V",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 3,
-            "description": "El movimiento de espiración (exhalar), es cuando sacamos el aire contaminado del cuerpo o dióxido de carbono.",
-            "answer": "F",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 4,
-            "description": "Los órganos más importantes del sistema respiratorio son: nariz, tráquea, pulmones y fosas nasales.",
-            "answer": "V",
-            "score": 1,
-            "imagen": ""
-        },
-        {
+    "id": 1,
+    "description": "Según tus conocimientos sobre el sistema respiratorio, indica si lo que se dice a continuación es verdadero o falso.",
+    "type": "multiple",
+    "mode":"VOF",
+      "score": 6,
+      "questions": [
+          {
+              "id": 0,
+              "description": "El sistema respiratorio es el que nos permite tomar aire y expulsarlo, a través de nuestros pulmones.",
+              "imagen": "",
+              "options": [
+                  {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 1,
+              "description": "Cuando tomamos aire de la naturaleza para llenar los pulmones de oxígeno o vida, estamos realizando el movimiento de inspiración (inhalar). ",
+              "imagen": "",
+              "options": [
+                 {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 2,
+              "description": "El movimiento de espiración (exhalar), es cuando sacamos el aire contaminado del cuerpo o dióxido de carbono.",
+              "imagen": "",
+              "options": [
+                  {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 3,
+              "description": "Los órganos más importantes del sistema respiratorio son: nariz, tráquea, pulmones y fosas nasales. ",
+              "imagen": "",
+              "options": [
+                    {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 4,
+              "description": "Las fosas nasales son los tubos por los que el aire llega a los pulmones, entrando por la nariz y la boca. ",
+              "imagen": "",
+              "options": [
+                    {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
             "id": 5,
-            "description": "Las fosas nasales son los tubos por los que el aire llega a los pulmones, entrando por la nariz y la boca.",
-            "answer": "F",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 6,
             "description": "Sin los pulmones se puede respirar.",
-            "answer": "F",
-            "score": 1,
-            "imagen": ""
+            "imagen": "",
+            "options": [
+                  {
+                  "id": 1,
+                  "description": "Verdadero",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "Falso",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
         }
-    ]
-}
+      ]
+  }

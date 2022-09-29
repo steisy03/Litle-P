@@ -1,43 +1,104 @@
 {
-    "id": 2,
-	"type": "vof",
+    "id": 1,
     "description": "Verdadero o falso. Demuestra lo aprendido sobre el sistema excretor, indicando si lo que se dice es verdadero o falso.",
-	"score": 5,
-	"questions": [
-        {
-            "id": 1,
-            "description": "Las sustancias que no son útiles para el organismo se quedan en el cuerpo.",
-            "answer": "V",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 2,
-            "description": "El sistema excretor elimina los desechos del organismo, expulsándolos afuera.",
-            "answer": "V",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 3,
-            "description": "Las glándulas sudoríparas tienen como principal función regular nuestra temperatura corporal y para eso producen el sudor.",
-            "answer": "F",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 4,
-            "description": "Los riñones recogen los desechos de la sangre y forman la orina, también llamada “pipi”.",
-            "answer": "V",
-            "score": 1,
-            "imagen": ""
-        },
-        {
-            "id": 5,
-            "description": "La uretra es un conducto que lleva la orina desde la vejiga hacia el exterior del cuerpo cuando orinamos.",
-            "answer": "F",
-            "score": 1,
-            "imagen": ""
-        }
-    ]
-}
+    "type": "multiple",
+    "mode":"VOF",
+      "score": 5,
+      "questions": [
+          {
+              "id": 0,
+              "description": "Las sustancias que no son útiles para el organismo se quedan en el cuerpo.",
+              "imagen": "",
+              "options": [
+                  {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 1,
+              "description": "El sistema excretor elimina los desechos del organismo, expulsándolos afuera.",
+              "imagen": "",
+              "options": [
+                 {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 2,
+              "description": "Las glándulas sudoríparas tienen como principal función regular nuestra temperatura corporal y para eso producen el sudor.",
+              "imagen": "",
+              "options": [
+                  {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 3,
+              "description": "Los riñones recogen los desechos de la sangre y forman la orina, también llamada “pipi”.",
+              "imagen": "",
+              "options": [
+                    {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          },
+          {
+              "id": 4,
+              "description": "La uretra es un conducto que lleva la orina desde la vejiga hacia el exterior del cuerpo cuando orinamos.",
+              "imagen": "",
+              "options": [
+                    {
+                    "id": 1,
+                    "description": "Verdadero",
+                    "imagen": ""
+                  },
+                  {
+                    "id": 2,
+                    "description": "Falso",
+                    "imagen": ""
+                  }
+              ],
+              "answer": 1,
+              "score": 1
+          }
+      ]
+  }
