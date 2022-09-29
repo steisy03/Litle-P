@@ -1,242 +1,49 @@
 <div class="container-fluid ">
     <div class="row ">
-        <div class="col-lg-3 ">
+        <div class="col-lg-3">
             <div class="contenedor-principal" id="tablaContenidos">
 
             </div>
         </div>
-        <div class="col-lg-6 ">
+        <div class="col-lg-9">
             <div class="contenedor-principal ">
                 <div class="p-3 ">
-                    <div class="primerActividad">
-                        <div class="row">
-                            <div class="col-12 ">
-                                <h2 class="tituloPrincipal ">
-                                    Actividad <span class="colorResaltar ">#1</span>
-                                </h2>
+                    <div class="row">
+                        <div class="col-12 mb-2">
+                            <h2 class="tituloPrincipal">
+                                Lista de <span class="colorResaltar">Actividades</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Sistema Digestivo</h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <a href="/">
+                                    <img src="../assets/img/vof.svg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <p class="card-text">Verdadero o Falso</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="row ">
-                            <div class="col-12 ">
-                                <p>Selecciona la respuesta correcta</p>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-12 text-center ">
-                                <p><strong>¿Cual es el siguiente organo?</strong></p>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center ">
-                            <div class="col-6 ">
-                                <div class="card ">
-                                    <img src="../assets/img/lapiz.png " alt=" " class="card-img-top ">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="respuestasSelect mt-3">
-                            <div class="row">
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadUno" selected  class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #1</span>
-                                            </div>
-                                          </div>
-                              
-                                      </label>
-                                </div>
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadUno" class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #2</span>
-                                            </div>
-                                          </div>
-                                      </label>
-                                </div>
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadUno" class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #3</span>
-                                            </div>
-                                          </div>
-                                      </label>
-                                </div>
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadUno" class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #3</span>
-                                            </div>
-                                          </div>
-                                      </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="botones">
-                            <div class="row mt-2">
-                                <div class="col-lg-4 text-lg-start">
-                                    <button class="btn " id="anterior">
-                                    <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-arrow-bar-left " viewBox="0 0 16 16 ">
-                                        <path fill-rule="evenodd " d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5
-                                0 0 1 .5.5z "/>
-                                    </svg> Anterior
-                                </button>
-                                </div>
-                                <div class="col-lg-4 offset-lg-4 text-lg-end">
-                                    <button class="btn" id="siguiente">
-                                    Siguiente <svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-arrow-bar-right " viewBox="0 0 16 16 ">
-                                        <path fill-rule="evenodd " d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0
-                            1 1 0v13a.5.5 0 0 1-.5.5z "/>
-                                    </svg>
-                                </button>
-                                </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="card">
+                                <a href="/">
+                                    <img src="../assets/img/seleccion.svg" alt="" class="card-img-top">
+                                    <div class="card-body">
+                                        <p class="card-text">Selección múltiple</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Actividad 2 -->
-                    <div class="segundaActividad">
-                        <div class="row mt-2 ">
-                            <div class="col-12 ">
-                                <h2 class="tituloPrincipal ">
-                                    Actividad <span class="colorResaltar ">#2</span>
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-12 ">
-                                <p>Selecciona el sistema que corresponde el organo</p>
-                            </div>
-                        </div>
-                        <div class="respuestasSelect mt-3">
-                            <div class="row">
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadDos" selected  class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #1</span>
-                                            </div>
-                                          </div>
-                              
-                                      </label>
-                                </div>
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadDos" class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #2</span>
-                                            </div>
-                                          </div>
-                                      </label>
-                                </div>
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadDos" class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #3</span>
-                                            </div>
-                                          </div>
-                                      </label>
-                                </div>
-                                <div class="col-lg-3 mt-sm-2">
-                                    <label>
-                                        <input type="radio" name="actividadDos" class="card-input-element" />
-                              
-                                          <div class="card card-default card-input">
-                                            <div class="card-body">
-                                                <span>Respuesta #3</span>
-                                            </div>
-                                          </div>
-                                      </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center mt-2 ">
-                            <div class="col-6 ">
-                                <div class="card ">
-                                    <img src="../assets/img/lapiz.png " alt=" " class="card-img-top ">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ACTIVIDAD 3 -->
-                    <div class="terceraActividad">
-                        <div class="row mt-2 ">
-                            <div class="col-12 ">
-                                <h2 class="tituloPrincipal ">
-                                    Actividad <span class="colorResaltar ">#3</span>
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-12 ">
-                                <p>Selecciona verdadero y falso</p>
-                            </div>
-                        </div>
-                        <div class="row ">
-                            <div class="col-8 ">
-                                <p>
-                                    1. Enunciado 1
-                                </p>
-                            </div>
-                            <div class="col-4 botonesVerdaderoFalso">
-                                <label>
-                                    <input type="radio" name="verdaderoFalso" class="card-input-element-v-f" id="verdadero"/>
-                          
-                                      <div class="card card-default card-input-v-f">
-                                        <div class="card-body">
-                                            <span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
-                                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-                                              </svg></span>
-                                        </div>
-                                      </div>
-                                  </label>
 
-                                <label>
-                                    <input type="radio" name="verdaderoFalso" class="card-input-element-v-f" id="falso"/>
-                                      <div class="card card-default card-input-v-f">
-                                        <div class="card-body">
-                                            <span>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                                                  </svg>
-                                            </span>
-                                        </div>
-                                      </div>
-                                  </label>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 ">
-            <div class="contenedor-principal ">
-                <div class="p-3 ">
-                    <div class="row ">
-                        <h3 class="tituloPrincipal">
-                            Actividades
-                        </h3>
-                    </div>
                 </div>
             </div>
         </div>

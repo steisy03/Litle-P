@@ -48,7 +48,6 @@ body {
     background-color: white;
     border: none;
     box-shadow: 0 1px 0 rgb(255 255 255 / 0%), 0 0 10px rgb(0 0 0 / 10%);
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -162,6 +161,13 @@ nav.navbar {
 }
 
 .contenido li {
+    color: #669bbc;
+}
+
+.card-non-border {}
+
+.non-style li {
+    list-style: none;
     color: #669bbc;
 }
 
@@ -312,4 +318,22 @@ nav.navbar {
 /* custom */
 .c-margin-top{
     margin-top: 2vh;
+}
+/*card lista de lectura*/
+
+.listaElementos .card {
+    border-bottom: 1px solid rgba(0, 0, 0, .125)!important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.texto {
+    margin-bottom: 0;
 }
