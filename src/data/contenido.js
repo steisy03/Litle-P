@@ -73,7 +73,7 @@ const sistemaDigestivo = `<div>
                 <span class="colorResaltar">Boca</span>
             </h3>
         </div>
-    </div>
+    </div> 
     <div class="row">
         
     <div class="col-lg-6">
