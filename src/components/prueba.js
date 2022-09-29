@@ -1,7 +1,7 @@
 import Route from '../libs/route';
 import {seleccionActividad, seleccionPregunta, seleccionRespuesta, finalizarActividad} from '../template/tmpActividades';
 //
-const vofSistemaCirculatorio = require('../data/vof/vofSistemaCirculatorio.json');
+const vof = require('../data/seleccion/vof.json');
 const seleccionSistemaCirculatorio = require('../data/seleccion/seleccionSistemaCirculatorio.json');
 //
 let contador = 0, 
@@ -32,11 +32,11 @@ class Prueba extends Route {
     async whenMounted() {
         actividad = document.getElementById('actividad');
         //
-        await this.setVariables( seleccionSistemaCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
-        await this.llenarActividadSeleccion();
+        this.setVariablesSeleccion( vof, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+        this.llenarActividadSeleccion();
     }
 
-    async llenarActividadSeleccion(){
+    llenarActividadSeleccion(){
         actividad.innerHTML = template
             .replace( "{{ID}}", data.id )
             .replace( "{{DESCRIPTION}}", data.description );
@@ -44,9 +44,9 @@ class Prueba extends Route {
         myAlert = document.querySelector('.alert');
         bsAlert = new bootstrap.Alert(myAlert);
         bsAlert.close();
-        this.llenarPregunta(data, qTemplate, aTemplate);
+        this.llenarPregunta();
     }
-    //TODO: arreglar funcion
+
     llenarRespuesta(e){
         let ueObject = e.target;
         let value = ueObject.getAttribute("value");
@@ -55,7 +55,7 @@ class Prueba extends Route {
         console.log(respuestaSeleccionadas);
     }
 
-    async llenarPregunta(){
+    llenarPregunta(){
         let question = data.questions[contador];
         totalPreguntas = data.questions.length - 1;
         let sp = '';
@@ -97,7 +97,7 @@ class Prueba extends Route {
         }
     }
 
-    async siguiente(){
+    siguiente(){
         if( this.validarRespuestaSeleccion() ){
             contador++;
             let pregunta = data.questions[contador].id;
@@ -109,7 +109,7 @@ class Prueba extends Route {
 
     }
 
-    async anterior(){
+    anterior(){
         contador--;
         let pregunta = data.questions[contador].id;
         let found = respuestaSeleccionadas.find(element => element.question == pregunta);
@@ -117,7 +117,7 @@ class Prueba extends Route {
         document.querySelector("input[name=actividadUno][value='"+found.value+"']").checked = true;	
     }
    
-    async setVariables( activity, templateActivity, templateQuestion, templateAnswer ){
+    setVariablesSeleccion( activity, templateActivity, templateQuestion, templateAnswer ){
         data = activity;
         template = templateActivity;
         qTemplate = templateQuestion;
@@ -132,7 +132,7 @@ class Prueba extends Route {
         return true;
     }
 
-    async finalizarActividadSeleccion(){
+    finalizarActividadSeleccion(){
         if( this.validarRespuestaSeleccion() ){
             console.log("finalizar");
             for( let i=0 ; i< respuestaSeleccionadas.length; i++ ){
@@ -152,10 +152,6 @@ class Prueba extends Route {
                 .replace( "{{MENSAJE}}", mensaje);
             console.log(resultado);
         }
-    }
-
-    puntuacion(){
-
     }
 }
 
