@@ -12,9 +12,12 @@ const sistemaDigestivo = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-7">
         <p>El <strong>sistema digestivo </strong>es el que se encarga de procesar o digerir los alimentos que consumimos o comemos para extraer de ellos los nutrientes que el organismo necesita.</p>
     </div>
+    <div class="col-lg-5 d-flex justify-content-center">
+            <img src="assets/img/digestivo/sistemaDigestivo.svg" alt="" class="img-fluid">
+        </div>
 </div>
 <div class="row">
     <div class="col-12">
@@ -24,7 +27,7 @@ const sistemaDigestivo = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-7">
+    <div class="col-12">
         <p>
             Prepara los alimentos ingeridos para que puedan ser asimilados por el organismo y esto se consigue mediante el proceso de la digestión que comprende dos tipos de acciones: mecánicas y químicas.
         </p>
@@ -67,18 +70,45 @@ const sistemaDigestivo = `<div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
                     <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
                   </svg>
-                <span class="colorResaltar" id="boca">Faringe</span>
+                <span class="colorResaltar">Boca</span>
             </h3>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
         
+    <div class="col-lg-6">
+        <p>
+            Es el primer componente del sistema digestivo, en la que se introducen los alimentos, se mastican con ayuda de los dientes y se mueven con la lengua. “Es el órgano por el que ingerimos los alimentos.” 
+        </p>
+    </div>
+        <div class="col-lg-6">
+            <img src="assets/img/digestivo/boca.svg" alt="" class="img-fluid">
+        </div>
+    </div>
+</div>
+<div>
+    <div class="row">
+        <div class="col-12">
+            <h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                    <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                  </svg>
+                <span class="colorResaltar">Faringe</span>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/digestivo/faringe.svg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
             <p>Es por donde pasa el alimento hacia el esófago. Por donde pasan los <strong>alimentos</strong>, después que entran a nuestra boca.
             </p>
             <p>Con el resultado de la trituración del alimento por los molares mediante el proceso de masticación se forma una masa conocida como <strong>bolo alimenticio.</strong></p>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-12 ">
             <p>Cuando el <strong>bolo alimenticio</strong> toca la zona posterior de la lengua esta se eleva y se produce el acto reflejo de la deglución <strong>(tragar).</strong> </p>
         </div>
     </div>
@@ -101,10 +131,8 @@ const sistemaDigestivo = `<div>
             <p>Cuando el bolo alimenticio entra en él se generan unas ondas que lo empujan hacia el estómago. </p>
             <p>Interiormente, el esófago está revestido de una sustancia mucosa lo que facilita el desplazamiento de los alimentos.</p>
         </div>
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/digestivo/esofago.svg" alt="" class="img-fluid">
         </div>
     </div>
 </div>
@@ -121,26 +149,33 @@ const sistemaDigestivo = `<div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
-        </div>
+    <div class="col-lg-6 d-flex justify-content-center">
+    <img src="assets/img/digestivo/estomago.svg" alt="" class="img-fluid">
+</div>
         <div class="col-lg-6">
             <p>Es el órgano a donde llegan los alimentos que son transportados por el <strong>esófago</strong> y es la porción más ancha del tubo digestivo.
             </p>
-            <p>Con el resultado de la trituración del alimento por los molares mediante el proceso de masticación se forma una masa conocida como <strong>bolo alimenticio.</strong></p>
-            <p>Cuando el <strong>bolo alimenticio</strong> toca la zona posterior de la lengua esta se eleva y se produce el acto reflejo de la deglución <strong>(tragar).</strong> </p>
+            
         </div>
     </div>
 
     <div class="row">
         <div class="col-12">
-            <p>Es un <strong></strong>"saco" elástico que tiene la forma de la letra "J". Desempeña tres funciones importantes:</p>
-
+            <p>Es un <strong></strong>"saco" elástico que tiene la forma de la letra "J". </p>
         </div>
     </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/digestivo/estomagoJ.svg" alt="" class="img-fluid">
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-12">
+        <p>Desempeña tres funciones importantes:</p>
+    </div>
+</div>
     <div class="funcionesEstomago">
+   
         <div class="row justify-content-center">
             <div class="col-lg-9 mb-sm-2 ">
                 <div class="card">
@@ -188,10 +223,8 @@ const sistemaDigestivo = `<div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/digestivo/pancreas.svg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
             <p>Este fabrica unos jugos que ayudan al cuerpo a digerir las grasas y las proteínas.
@@ -213,10 +246,15 @@ const sistemaDigestivo = `<div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <p>
-                Es el órgano sólido más grande del cuerpo.
+        <div class="col-12">
+            <<p>
+             Es el órgano sólido más grande del cuerpo.
             </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-7">
+            
             <p>
                 El hígado realiza muchos trabajos, pero los tres más importantes son los siguientes:
 
@@ -238,11 +276,9 @@ const sistemaDigestivo = `<div>
             </ul>
         </div>
 
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
-        </div>
+        <div class="col-lg-5 d-flex justify-content-center">
+        <img src="assets/img/digestivo/higado.svg" alt="" class="img-fluid">
+    </div>
     </div>
 </div>
 <!-- Titulo 7 -->
@@ -258,10 +294,8 @@ const sistemaDigestivo = `<div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/digestivo/intestinoDelgado.svg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
             <p>
@@ -295,10 +329,8 @@ const sistemaDigestivo = `<div>
 
                 </p>
             </div>
-            <div class="col-lg-6">
-                <div class="card">
-                    <img src="" alt="" class="card-img-top">
-                </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+                <img src="assets/img/digestivo/intestinoGrueso.svg" alt="" class="img-fluid">
             </div>
         </div>
         <div class="row">
@@ -322,10 +354,8 @@ const sistemaDigestivo = `<div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/digestivo/recto.svg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
             <p>
@@ -537,6 +567,10 @@ const sistemaCirculatorio = `<div>
         <p>Es un asombroso recorrido impulsado por el corazón y es el que mantiene nuestro cuerpo en funcionamiento.</p>
     </div>
 </div>
+
+<div class="col-lg-8 offset-2">
+<img src="assets/img/sistemaCirculatorioCuerpos.svg" alt="" class="card-img">
+</div>
 <div class="row">
     <div class="col-12">
         <h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
@@ -545,11 +579,14 @@ const sistemaCirculatorio = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-8">
         <p>El sistema circulatorio, conocido también como sistema cardiovascular, es un sistema de órganos que transporta sangre a través de los vasos sanguíneos hacia y desde todas las partes del cuerpo.
         </p>
 
         <p>Es un sistema tubular cerrado en el que la sangre es impulsada por un corazón muscular.</p>
+    </div>
+    <div class="col-lg-4">
+        <img src="assets/img/sistemaCirculatorio.gif" alt="" class="img-fluid">
     </div>
 </div>
 <div class="row">
@@ -566,11 +603,14 @@ const sistemaCirculatorio = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-7">
+    <div class="col-8">
         <p>
             Tu sistema circulatorio es vital para tu supervivencia, no solo mantiene nuestras células sanas, sino que también nos mantiene vivos.
         </p>
         <p>Su función es distribuir <strong>sangre y otros nutrientes</strong> a todos los órganos y tejidos del cuerpo.</p>
+    </div>
+    <div class="col-4">
+    <img src="assets/img/sistemaCirculatorio.png" alt="" class="img-fluid">
     </div>
 </div>
 <div class="row">
@@ -614,9 +654,16 @@ const sistemaCirculatorio = `<div>
         </div>
         <div class="row">
             <div class="col-lg-6">
-                <div class="card">
-                    <img src="" alt="" class="card-img-top">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/img/corazonReal.jpg" alt="" class="card-img"/>
+                    </div>
                 </div>
+                <div class="row">
+                <div class="col-12">
+                    <img src="assets/img/corazonAnimado.svg" alt="" class="card-img"/>
+                </div>
+            </div>
             </div>
             <div class="col-lg-6">
                 <p>
@@ -674,7 +721,7 @@ const sistemaCirculatorio = `<div>
     </div>
     <div class="row">
         <div class="col-lg-6">
-            <img src="" alt="" class="img-fluid">
+            <img src="./assets/img/ubicacionCorazon.svg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
             <p>
@@ -747,21 +794,21 @@ const sistemaCirculatorio = `<div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-5">
+            <img src="assets/img/vasosSanguineos.svg" alt="" class="card-img">
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-7 justify-content-center">
             <p>
                 Si alguna vez has visto un <strong> mapa</strong>, probablemente hayas observado que las calles van y vienen en muchas direcciones.
             </p>
-            <p>
-                El cuerpo tiene un sistema de autopistas propio que transporta sangre desde y hacia las distintas partes de tu organismo. Donde los caminos se denominan “arterias” y “venas”. </p>
+            
         </div>
     </div>
     <div class="row">
         <div class="col-12">
+            <p>
+                El cuerpo tiene un sistema de autopistas propio que transporta sangre desde y hacia las distintas partes de tu organismo. Donde los caminos se denominan “arterias” y “venas”. 
+            </p>
             <p>A continuación describiremos las <strong>arterias, venas y vasos capilares</strong></p>
         </div>
     </div>
@@ -779,11 +826,10 @@ const sistemaCirculatorio = `<div>
         <div class="col-lg-6">
             <p> Llevan sangre rica en oxígeno y nutrientes del corazón a todas las partes del cuerpo).
             </p>
+            <p>Las veneas se representan de color <strong>rojo.</strong></p>
         </div>
         <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <img src="assets/img/arterias.svg" alt="" class="card-img">
         </div>
     </div>
     <div class="row">
@@ -798,13 +844,12 @@ const sistemaCirculatorio = `<div>
     </div>
     <div class="row">
         <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+            <img src="assets/img/venas.svg" alt="" class="card-img">
         </div>
         <div class="col-lg-6">
             <p>Transportan la sangre pobre en oxígeno y nutrientes de vuelta al corazón.
             </p>
+            <p>Las veneas se representan de color <strong>azul.</strong></p>
         </div>
     </div>
     <div class="row">
@@ -818,16 +863,11 @@ const sistemaCirculatorio = `<div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
             <p> Son el tipo más pequeño de los vasos sanguíneos y constituyen el puente entre las arterias y las venas.
             </p>
 
             <p>Los capilares rodean a las células y a los tejidos del cuerpo para aportar y absorber oxígeno, nutrientes y otras sustancias. Los capilares también conectan las ramas de las arterias y las ramas de las venas.</p>
-        </div>
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
         </div>
     </div>
     <div class="row">
@@ -853,9 +893,7 @@ const sistemaCirculatorio = `<div>
                 digestivo, que se encargan de expulsarlos al exterior.</p>
         </div>
         <div class="col-lg-6">
-            <div class="card">
-                <img src="./assets/img/sangre.jpg" alt="" class="card-img-top">
-            </div>
+            <img src="./assets/img/sangre.jpg" alt="" class="card-img-top">
         </div>
     </div>
 </div>
@@ -873,6 +911,7 @@ const sistemaOseo = `<div>
           </svg> ¿Qué es el sistema óseo? </h3>
     </div>
 </div>
+
 <div class="row">
     <div class="col-12">
         <p>
@@ -881,6 +920,11 @@ const sistemaOseo = `<div>
         <p>
             <em> El sistema óseo de un adulto, también conocido como el esqueleto humano, <strong>está compuesto por 206 huesos.</strong>  </em>
         </p>
+    </div>
+</div>
+<div class="row justify-content-center">
+<div class="col-lg-8 d-flex justify-content-center">
+        <img src="assets/img/oseo/sistema.svg" alt="" class="img-fluid">
     </div>
 </div>
 <div class="row">
@@ -937,10 +981,8 @@ const sistemaOseo = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+    <div class="col-lg-6 d-flex justify-content-center">
+        <img src="assets/img/oseo/huesos.svg" alt="" class="img-fluid">
     </div>
     <div class="col-lg-6">
         <p>
@@ -966,10 +1008,8 @@ const sistemaOseo = `<div>
         </p>
 
     </div>
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+    <div class="col-lg-6 d-flex justify-content-center">
+        <img src="assets/img/oseo/articulaciones.svg" alt="" class="img-fluid">
     </div>
 </div>
 <div class="row">
@@ -990,15 +1030,10 @@ const sistemaOseo = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
         <p>
             Es un material flexible y blando, aunque con cierta rigidez. Podemos encontrar los cartílagos en la punta de las orejas y la punta de la nariz.
         </p>
-    </div>
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
     </div>
 </div>
 <div class="row">
@@ -1012,12 +1047,7 @@ const sistemaOseo = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
-    </div>
-    <div class="col-lg-6">
+    <div class="col-lg-12">
         <p>
             Por lo general, en las articulaciones encontramos <strong>ligamentos</strong>. Como su nombre lo indica, los ligamentos son como ligas muy resistentes que sirven para unir a los huesos.
         </p>
@@ -1326,6 +1356,11 @@ const sistemaNervioso = `<div>
     </div>
 </div>
 <div class="row">
+    <div class="col-8 offset-2">
+    <img src="assets/img/nervioso/sistemaNerviosoCuerpos.svg" alt="" class="img-fluid">
+    </div>
+</div>
+<div class="row">
     <div class="col-12">
         <h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
             <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
@@ -1371,9 +1406,7 @@ const sistemaNervioso = `<div>
 </div>
 <div class="row">
     <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+    <img src="assets/img/nervioso/cerebro.png" alt="" class="card-img">  
     </div>
     <div class="col-lg-6">
         <p>
@@ -1400,9 +1433,7 @@ const sistemaNervioso = `<div>
         </p>
     </div>
     <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+        <img src="assets/img/nervioso/medulaEspinal.svg" alt="" class="img-fluid">
     </div>
 </div>
 <div class="row">
@@ -1415,18 +1446,36 @@ const sistemaNervioso = `<div>
         </h3>
     </div>
 </div>
-<div class="row">
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
+    <div class="row">
+        <div class="col-lg-6">
+        <img src="assets/img/nervioso/nervios.svg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+            <p>
+                Son como cables que llevan señales de comunicación o impulsos por todo el cuerpo. Algunos nervios son muy largos, como los que van de los pies a la médula espinal. Las células nerviosas se llaman neuronas.
+            </p>
         </div>
     </div>
-    <div class="col-lg-6">
-        <p>
-            Son como cables que llevan señales de comunicación o impulsos por todo el cuerpo. Algunos nervios son muy largos, como los que van de los pies a la médula espinal. Las células nerviosas se llaman neuronas.
-        </p>
+    <div class="row">
+    <div class="col-12">
+        <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                    <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
+                </svg>
+            <span class="colorResaltar">¿Qué son las neuronas?</span>
+        </h3>
     </div>
 </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <p>
+            Es un tipo de célula que recibe y envía mensajes entre el cuerpo y el encéfalo. Los mensajes se envían por medio de una corriente eléctrica débil. También se llama célula nerviosa.
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <img src="assets/img/nervioso/neurona.svg" alt="" class="img-fluid">
+        </div>
+    </div>
 </div>`;
 
 export {
