@@ -2,10 +2,10 @@ import Route from '../libs/route';
 import { tablaContenido } from '../template/links';
 
 let tablaContenidos, name;
-class ListaLectura extends Route {
+class Diccionario extends Route {
     constructor() {
-        super("listaLectura", {
-            htmlName: "/views/listaLectura.html",
+        super("diccionario", {
+            htmlName: "/views/diccionario.html",
             default: true
         });
         this.onMountCb = this.whenMounted;
@@ -19,5 +19,5 @@ class ListaLectura extends Route {
     }
 }
 
-const listaLectura = new ListaLectura();
-export default listaLectura;
+const diccionario = new Diccionario();
+export default diccionario;

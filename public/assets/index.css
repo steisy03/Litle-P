@@ -314,3 +314,23 @@ nav.navbar {
 .listaLectura li {
     list-style: none;
 }
+
+
+/*card lista de lectura*/
+
+.listaElementos .card {
+    border-bottom: 1px solid rgba(0, 0, 0, .125)!important;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.texto {
+    margin-bottom: 0;
+}
