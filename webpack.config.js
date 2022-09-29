@@ -1,6 +1,7 @@
 module.exports = {
   entry: {
     contenido: "./src/contenido.js",
+    actividad: "./src/actividad.js",
   },
   output: {
     path: __dirname + "/public/app",
