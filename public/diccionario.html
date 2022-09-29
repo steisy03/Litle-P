@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Little Pencil</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/index.css">
+    <link rel="shortcut icon" href="./assets/img/lapiz.png">
+</head>
+
+<body class="bg-green">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/img/lapiz.png" alt="BlueMoneyLogo" height="50"> <span>Little Pencil</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="linkInicio" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkLectura" href="#listaLectura">Lista de lectura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkDiccionario" href="#diccionario">Diccionario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-header" id="linkAgregar" href="#actividades">Actividades</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <main class="main mb-5 mt-3" id="app">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <div class="contenedor-principal" id="contenidos">
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="contenedor-principal">
+                        <div class="p-5">
+                            <div class="row">
+                                <h3>Diccionario</h3>
+                            </div>
+                            <div id="contenidos" class="listaElementos">
+                                <div class="row mb-3">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h5 class="card-title" id="titulo">Card title</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted" id="subTitulo">Card subtitle</h6>
+                                                <div class="row">
+                                                    <div class="col-1">
+                                                        <img src="../assets/img/corazonDiccionario.png" alt="" class="img-fluid">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <p class="texto">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-2 bg-light fixed-bottom">
+        <div class="container text-end">
+            <span class="text-muted">Hecho con 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg>
+            </span>
+        </div>
+    </footer>
+    <script src="./app/diccionario.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
