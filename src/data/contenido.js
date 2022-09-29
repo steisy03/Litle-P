@@ -385,10 +385,20 @@ const sistemaRespiratorio = `<div>
         <p>
             Con el sistema digestivo recibimos los nutrientes de los alimentos. La sangre es la que conduce esos nutrientes en nuestro cuerpo, pero no solamente transporta nutrientes sino también <strong>oxígeno.</strong>
         </p>
-        <p>
-            Ahora bien <strong>¿cómo llega el oxígeno a la sangre?</strong> Cuando respiramos, utilizamos el sistema respiratorio, que está compuesto de varios órganos. Describiremos a continuación.
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-8 offset-2">
+        <img src="assets/img/respiratorio/inicio.svg" alt="" class="card-img">
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+       
+    <p>
+    Ahora bien <strong>¿cómo llega el oxígeno a la sangre?</strong> Cuando respiramos, utilizamos el sistema respiratorio, que está compuesto de varios órganos. Describiremos a continuación.
 
-        </p>
+</p>
     </div>
 </div>
 <div class="row">
@@ -467,10 +477,8 @@ const sistemaRespiratorio = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+    <div class="col-lg-6 justify-content-center">
+        <img src="assets/img/respiratorio/nariz.svg" alt="" class="card-img">
     </div>
     <div class="col-lg-6">
         <p>
@@ -503,10 +511,8 @@ const sistemaRespiratorio = `<div>
             Son los tubos por los que el aire llega a los pulmones, entrando por la nariz y la boca. Estos pequeños orificios que tenemos en la nariz, es donde se limpia el aire y se absorbe.
         </p>
     </div>
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+    <div class="col-lg-6 justify-content-center">
+        <img src="assets/img/respiratorio/fosasNasales.svg" alt="" class="card-img">
     </div>
 </div>
 <div class="row">
@@ -520,10 +526,8 @@ const sistemaRespiratorio = `<div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+    <div class="col-lg-6 justify-content-center">
+        <img src="assets/img/respiratorio/traquea.svg" alt="" class="card-img">
     </div>
     <div class="col-lg-6">
         <p>
@@ -547,11 +551,9 @@ const sistemaRespiratorio = `<div>
             Reciben el aire que respiramos y también lo expulsan.
         </p>
     </div>
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
-    </div>
+    <div class="col-lg-6 justify-content-center">
+    <img src="assets/img/respiratorio/pulmones.svg" alt="" class="card-img">
+</div>
 </div>
 </div>`;
 
@@ -1067,6 +1069,12 @@ const sistemaExcretor = ` <div>
         <p>Nuestro organismo elimina las sustancias no necesarias o de desecho producidas en el metabolismo celular. Si no son eliminadas, pueden resultar tóxicas en una alta concentración. </p>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-lg-8 offset-2">
+        <img src="assets/img/excretor/inicio.svg" alt="" class="img-fluid">
+    </div>
+</div>
 <div class="row">
     <div class="col-12">
         <p>
@@ -1119,22 +1127,18 @@ const sistemaExcretor = ` <div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
         <p>
             Las <strong>sustancias de desecho </strong>son materia que el cuerpo no necesita porque ya tiene suficiente. Los productos de desecho tienen que ir a algún sitio; ahí es donde los<strong> riñones </strong>entran en acción.
         </p>
-        <p>A continuación se describen los órganos principales que componen el
-            <strong>sistema circulatorio: </strong></p>
-    </div>
-    <div class="col-lg-6">
-        <div class="card">
-            <img src="" alt="" class="card-img-top">
-        </div>
+        <p>Teniendo en cuenta la vía de eliminación de las<strong> sustancias de desecho </strong>, existen varios órganos importantes en el proceso de excreción.</p>
+
     </div>
 </div>
 <div class="row">
     <div class="col-12 ">
-        <p>Teniendo en cuenta la vía de eliminación de las<strong> sustancias de desecho </strong>, existen varios órganos importantes en el proceso de excreción.</p>
+        <p>A continuación se describen los órganos principales que componen el
+    <strong>sistema circulatorio: </strong></p>
     </div>
 </div>
 <div class="row">
@@ -1165,10 +1169,8 @@ const sistemaExcretor = ` <div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/excretor/glandulas.svg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
             <p>
@@ -1230,10 +1232,8 @@ const sistemaExcretor = ` <div>
         <div class="col-lg-6">
             <p>El aparato urinario es el sistema de órganos y conductos que procesa y lleva la orina hacia fuera del cuerpo. Los riñones, los uréteres, la vejiga y la uretra son parte del aparato urinario. Se produce la orina en los riñones.</p>
         </div>
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/excretor/riñones.svg" alt="" class="img-fluid">
         </div>
     </div>
     <div class="row">
@@ -1276,10 +1276,8 @@ const sistemaExcretor = ` <div>
         <div class="col-lg-6">
             <p>Dos conductos delgados que llevan la orina desde los riñones hasta la vejiga.</p>
         </div>
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/excretor/ureteres.svg" alt="" class="img-fluid">
         </div>
     </div>
     <div class="row">
@@ -1294,10 +1292,8 @@ const sistemaExcretor = ` <div>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/excretor/vejiga.svg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6">
             <p>Es un depósito de tejido muscular liso situado en la zona baja del abdomen y donde se almacena la orina formada en los riñones.
@@ -1318,10 +1314,8 @@ const sistemaExcretor = ` <div>
         <div class="col-lg-6">
             <p>Un conducto que lleva la orina desde la vejiga hacia el exterior del cuerpo cuando orinamos.</p>
         </div>
-        <div class="col-lg-6">
-            <div class="card">
-                <img src="" alt="" class="card-img-top">
-            </div>
+        <div class="col-lg-6 d-flex justify-content-center">
+            <img src="assets/img/excretor/uretra.svg" alt="" class="img-fluid">
         </div>
     </div>
     <div class="row">
