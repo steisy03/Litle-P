@@ -308,3 +308,8 @@ nav.navbar {
 .listaLectura li {
     list-style: none;
 }
+
+/* custom */
+.c-margin-top{
+    margin-top: 2vh;
+}
