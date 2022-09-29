@@ -1,6 +1,6 @@
-const seleccionRespuesta = `<div class="col-4 mt-sm-2">
+const seleccionRespuesta = `<div class="col-3 mt-sm-2">
 <label>
-    <input value={{IDI}} data-id="{{ID}}" type="radio" name="actividadUno" class="card-input-element" />
+    <input value={{IDI}} data-id="{{ID}}" type="radio" name="actividadUno" class="card-input-element ra" />
       <div class="card card-default card-input">
         <div class="card-body">
             <span>{{ANSWERDES}}</span>
@@ -88,8 +88,40 @@ const seleccionActividad = `<div class="primerActividad">
 </div>
 </div>`;
 
+const finalizarActividad = `
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <img src="./assets/img/lapiz.png" height="200">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 d-flex justify-content-center">
+                            <h1><strong>{{MENSAJE}}</strong></h1>
+                        </div>
+                    </div>
+                    <div class="row  justify-content-center">
+                        <div class="col-12 d-flex justify-content-center">
+                            <h6><strong>Puntuacion Obtenida:</strong> {{PUNTUACION}}%</h6>
+                        </div>
+                    </div>
+                    <div class="row  justify-content-center">
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button id="volerInicio" type="button" class="btn btn-success btn-lg">Ir al inicio</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button id="realizarNuevo" type="button" class="btn btn-light btn-lg">Volver a intentar</button>
+                            </div>
+                        </div>
+                    </div>
+`;
+
 export {
     seleccionActividad,
     seleccionRespuesta,
-    seleccionPregunta
+    seleccionPregunta,
+    finalizarActividad
 }

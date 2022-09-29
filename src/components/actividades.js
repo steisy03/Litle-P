@@ -1,5 +1,6 @@
 import Route from '../libs/route';
 import { tablaContenido } from '../template/links';
+
 let tablaContenidos;
 class Actividades extends Route {
     constructor() {

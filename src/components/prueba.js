@@ -1,5 +1,5 @@
 import Route from '../libs/route';
-import {seleccionActividad, seleccionPregunta, seleccionRespuesta} from '../template/tmpActividades';
+import {seleccionActividad, seleccionPregunta, seleccionRespuesta, finalizarActividad} from '../template/tmpActividades';
 //
 const vofSistemaCirculatorio = require('../data/vof/vofSistemaCirculatorio.json');
 const seleccionSistemaCirculatorio = require('../data/seleccion/seleccionSistemaCirculatorio.json');
@@ -13,6 +13,8 @@ let contador = 0,
     myAlert ,
     bsAlert ,
     respuestaSeleccionadas = [],
+    puntuacion,
+    puntuacionObtenida = 0,
     data, //? data: informaciones de la actividad
     template, //? template: formatp base de la actividad (html)
     qTemplate, //? qTemplate (question template): formato para la pregunta (html)
@@ -32,7 +34,6 @@ class Prueba extends Route {
         //
         await this.setVariables( seleccionSistemaCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
         await this.llenarActividadSeleccion();
-        
     }
 
     async llenarActividadSeleccion(){
@@ -44,6 +45,14 @@ class Prueba extends Route {
         bsAlert = new bootstrap.Alert(myAlert);
         bsAlert.close();
         this.llenarPregunta(data, qTemplate, aTemplate);
+    }
+    //TODO: arreglar funcion
+    llenarRespuesta(e){
+        let ueObject = e.target;
+        let value = ueObject.getAttribute("value");
+        respuestaSeleccionadas = respuestaSeleccionadas.filter(e=> e.question != contador);
+        respuestaSeleccionadas.push({"question":contador, "value":value});
+        console.log(respuestaSeleccionadas);
     }
 
     async llenarPregunta(){
@@ -70,7 +79,7 @@ class Prueba extends Route {
             : finalizar.setAttribute( "hidden", "hidden" );
         anterior.addEventListener("click", ()=> this.anterior());
         siguiente.addEventListener("click", ()=> this.siguiente());
-        
+        finalizar.addEventListener("click", () => this.finalizarActividadSeleccion())
         //
         //* Llenado respuestas
         respuestas = document.getElementById('respuestas');
@@ -81,21 +90,31 @@ class Prueba extends Route {
                 .replace( "{{ANSWERDES}}", element.description );
         })
         respuestas.innerHTML = sp;
-        document.querySelector("input[name=actividadUno][value='1']").checked = true;	
-        console.log(document.querySelector("input[name=actividadUno][value='1']"));
+        let listRespuestas = document.getElementsByClassName("ra");
+        console.log(listRespuestas);
+        for (let i = 0; i < listRespuestas.length; i++) {
+            listRespuestas[i].addEventListener("click", this.llenarRespuesta);
+        }
     }
 
     async siguiente(){
         if( this.validarRespuestaSeleccion() ){
             contador++;
+            let pregunta = data.questions[contador].id;
+            let found = respuestaSeleccionadas.find(element => element.question == pregunta);
             this.llenarPregunta();
+            let element = document.querySelector("input[name=actividadUno][value='"+found?.value+"']");
+            element != null ? element.checked = true :null 
         }
 
     }
 
     async anterior(){
         contador--;
+        let pregunta = data.questions[contador].id;
+        let found = respuestaSeleccionadas.find(element => element.question == pregunta);
         this.llenarPregunta();
+        document.querySelector("input[name=actividadUno][value='"+found.value+"']").checked = true;	
     }
    
     async setVariables( activity, templateActivity, templateQuestion, templateAnswer ){
@@ -105,22 +124,37 @@ class Prueba extends Route {
         aTemplate = templateAnswer;
     }
 
-    //TODO: 
-    //TODO: llenar datos del avance y demas en el locaStorage
     validarRespuestaSeleccion(){
         let res = document.querySelector('input[name="actividadUno"]:checked')?.getAttribute("data-id");
         if(res == undefined ){
-            console.log("prueba")
             return false;
         }
         return true;
     }
 
-    llenarRespuesta( value ){
-        
+    async finalizarActividadSeleccion(){
+        if( this.validarRespuestaSeleccion() ){
+            console.log("finalizar");
+            for( let i=0 ; i< respuestaSeleccionadas.length; i++ ){
+                respuestaSeleccionadas.forEach(element =>{
+                    if((data.questions[i].id == element.question) && (data.questions[i].answer == element.value)){
+                        puntuacionObtenida++;
+                    }
+                });
+            }
+            let resultado  = puntuacionObtenida/data.score*100;
+            let mensaje = 'nice';
+            if( resultado > 90 ) mensaje = '¡Muy Bien!';
+            if( resultado < 90 && puntuacion > 70 ) mensaje = '¡Bien!';
+            if( resultado < 70 ) mensaje = '¡Sigue Intentando!'
+            actividad.innerHTML = finalizarActividad
+                .replace( "{{PUNTUACION}}", resultado )
+                .replace( "{{MENSAJE}}", mensaje);
+            console.log(resultado);
+        }
     }
 
-    async finalizarActividadSeleccion(){
+    puntuacion(){
 
     }
 }
