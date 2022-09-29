@@ -1,7 +1,14 @@
 import {seleccionActividad, seleccionPregunta, seleccionRespuesta, finalizarActividad} from './template/tmpActividades';
 //
-const vof = require('./data/vof/vofSistemaCirculatorio.json');
-const seleccionSistemaCirculatorio = require('./data/seleccion/seleccionSistemaCirculatorio.json');
+const vofCirculatorio = require('./data/vof/vofSistemaCirculatorio.json');
+const vofDisgestivo = require('./data/vof/vofSistemaDigestivo.json');
+const vofExcretor = require('./data/vof/vofSistemaExcretor.json');
+const vofNervioso = require('./data/vof/vofSistemaNervioso.json');
+const vofOseo = require('./data/vof/vofSistemaOseo.json');
+const vofRespiratorio = require('./data/vof/vofSistemaRespiratorio.json');
+const seleccionCirculatorio = require('./data/seleccion/seleccionSistemaCirculatorio.json');
+const seleccionDisgestivo = require('./data/seleccion/seleccionSistemaDigestivo.json');
+const seleccionNervioso = require('./data/seleccion/seleccionSistemaNervioso.json');
 //
 let contador = 0, 
     totalPreguntas = 0,
@@ -24,7 +31,7 @@ let contador = 0,
     window.onload = function() {
         actividad = document.getElementById('actividad');
         //
-        setVariablesSeleccion( vof, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+        setVariablesSeleccion( vofCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
         llenarActividadSeleccion();
     }
 

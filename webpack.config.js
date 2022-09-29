@@ -2,6 +2,7 @@ module.exports = {
   entry: {
     contenido: "./src/contenido.js",
     actividad: "./src/actividad.js",
+    diccionario: "./src/diccionario.js",
   },
   output: {
     path: __dirname + "/public/app",
