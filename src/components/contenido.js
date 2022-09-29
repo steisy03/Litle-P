@@ -29,33 +29,27 @@ class Contenido extends Route {
         //
         if (option == 'sistema-digestivo') {
             contenidos.innerHTML = sistemaDigestivo;
-            name.innerHTML = "Digestivo";
             tablaContenidos.innerHTML = tablaContenidoDigestivo;
             actividadesRelacionadas.innerHTML = actividadesRelacionadasDigestivo;
 
         } else if (option == 'sistema-respiratorio') {
             contenidos.innerHTML = sistemaRespiratorio;
-            name.innerHTML = "Respiratorio";
             tablaContenidos.innerHTML = tablaContenidoRespiratorio;
             actividadesRelacionadas.innerHTML = actividadesRelacionadasRespiratorio;
         } else if (option == 'sistema-nervioso') {
             contenidos.innerHTML = sistemaNervioso;
-            name.innerHTML = "Nervioso";
             tablaContenidos.innerHTML = tablaContenidoNervioso;
             actividadesRelacionadas.innerHTML = actividadRelacionadaNervioso;
         } else if (option == 'sistema-oseo') {
             contenidos.innerHTML = sistemaOseo;
-            name.innerHTML = "Óseo";
             tablaContenidos.innerHTML = tablaContenidoOseo;
             actividadesRelacionadas.innerHTML = actividadesRelacionadasOseo;
         } else if (option == 'sistema-circulatorio') {
             contenidos.innerHTML = sistemaCirculatorio;
-            name.innerHTML = "Circulatorio";
             tablaContenidos.innerHTML = tablaContenidoCirculatorio;
             actividadesRelacionadas.innerHTML = actividadRelacionadasCirculatorio;
         } else if (option == 'sistema-excretor') {
             contenidos.innerHTML = sistemaExcretor;
-            name.innerHTML = "Excretor";
             tablaContenidos.innerHTML = tablaContenidoExcretor;
             actividadesRelacionadas.innerHTML = actividadesRelacionadasExcretor;
         } else {
