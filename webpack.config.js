@@ -1,6 +1,5 @@
 module.exports = {
   entry: {
-    index: "./src/index.js",
     contenido: "./src/contenido.js",
   },
   output: {
