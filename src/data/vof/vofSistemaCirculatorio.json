@@ -7,7 +7,7 @@
     "questions": [{
             "id": 0,
             "description": "El sistema circulatorio es el que mantiene la sangre fluyendo continuamente por nuestro cuerpo.",
-            "imagen": "",
+            "imagen": "./assets/img/actividades/circulatorio/sistemaCirculatorio.svg",
             "options": [{
                     "id": 1,
                     "description": "Verdadero",
@@ -25,7 +25,7 @@
         {
             "id": 1,
             "description": "El corazón y los vasos sanguíneos constituyen el sistema circulatorio.",
-            "imagen": "",
+            "imagen": "./assets/img/actividades/circulatorio/sistema.svg",
             "options": [{
                     "id": 1,
                     "description": "Verdadero",
@@ -43,7 +43,7 @@
         {
             "id": 2,
             "description": "Para ayudar a mantener sano tu corazón debes hacer mucho ejercicio físico, llevar una dieta nutritiva, mantener un peso saludable y no fumar.",
-            "imagen": "",
+            "imagen": "./assets/img/actividades/circulatorio/ejercicioNiños.svg",
             "options": [{
                     "id": 1,
                     "description": "Verdadero",
@@ -61,7 +61,7 @@
         {
             "id": 3,
             "description": "Antes de cada latido, el corazón se te llena de sangre.",
-            "imagen": "",
+            "imagen": "./assets/img/actividades/circulatorio/corazon.svg",
             "options": [{
                     "id": 1,
                     "description": "Verdadero",
@@ -79,7 +79,7 @@
         {
             "id": 4,
             "description": "Las arterias llevan sangre rica en oxígeno y nutrientes del corazón a todas las partes del cuerpo.",
-            "imagen": "",
+            "imagen": "./assets/img/actividades/circulatorio/arterias.svg",
             "options": [{
                     "id": 1,
                     "description": "Verdadero",

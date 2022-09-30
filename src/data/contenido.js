@@ -1092,11 +1092,10 @@ const sistemaExcretor = ` <div>
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-12">
         <p>El sistema encargado de eliminar estos productos de desecho de nuestro organismo es el <strong>excretor</strong>.
         </p>
         <p>Los productos más comunes y abundantes son el <strong>dióxido de carbono</strong>, el <strong>agua</strong> y ciertas sustancias nitrogenadas como la <strong>urea</strong> y el <strong>ácido úrico.</strong></p>
-
     </div>
 </div>
 <div class="row">

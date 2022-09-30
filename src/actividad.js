@@ -31,7 +31,7 @@ let contador = 0,
     window.onload = function() {
         actividad = document.getElementById('actividad');
         //
-        setVariablesSeleccion( vofCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+        setVariablesSeleccion( vofRespiratorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
         llenarActividadSeleccion();
     }
 
@@ -62,7 +62,8 @@ let contador = 0,
         pregunta.innerHTML = qTemplate
             .replace( "{{QUESTION}}", question.description )
             .replace( "{{ANTERIOR}}", question.id - 1 )
-            .replace( "{{SIGUIENTE}}", question.id + 1 );
+            .replace( "{{SIGUIENTE}}", question.id + 1 )
+            .replace("{{IMAGEN}}", question.imagen);
         //
         let anterior = document.getElementById('anterior');
         let siguiente = document.getElementById('siguiente');
@@ -148,7 +149,7 @@ let contador = 0,
             let resultado  = puntuacionObtenida/data.score*100;
             let mensaje = 'nice';
             if( resultado > 90 ) mensaje = '¡Muy Bien!';
-            if( resultado < 90 && puntuacion > 70 ) mensaje = '¡Bien!';
+            if( resultado < 90 && resultado > 70 ) mensaje = '¡Bien!';
             if( resultado < 70 ) mensaje = '¡Sigue Intentando!'
             actividad.innerHTML = finalizarActividad
                 .replace( "{{PUNTUACION}}", resultado )

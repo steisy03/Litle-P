@@ -8,7 +8,7 @@
           {
               "id": 0,
               "description": "El sistema respiratorio es el que nos permite tomar aire y expulsarlo, a través de nuestros pulmones.",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/respiratorio/sistema.svg",
               "options": [
                   {
                     "id": 1,
@@ -27,7 +27,7 @@
           {
               "id": 1,
               "description": "Cuando tomamos aire de la naturaleza para llenar los pulmones de oxígeno o vida, estamos realizando el movimiento de inspiración (inhalar). ",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/respiratorio/inhalar.svg",
               "options": [
                  {
                     "id": 1,
@@ -46,7 +46,7 @@
           {
               "id": 2,
               "description": "El movimiento de espiración (exhalar), es cuando sacamos el aire contaminado del cuerpo o dióxido de carbono.",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/respiratorio/exhalar.svg",
               "options": [
                   {
                     "id": 1,
@@ -65,7 +65,7 @@
           {
               "id": 3,
               "description": "Los órganos más importantes del sistema respiratorio son: nariz, tráquea, pulmones y fosas nasales. ",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/respiratorio/organos.svg",
               "options": [
                     {
                     "id": 1,
@@ -84,7 +84,7 @@
           {
               "id": 4,
               "description": "Las fosas nasales son los tubos por los que el aire llega a los pulmones, entrando por la nariz y la boca. ",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/respiratorio/fosas.svg",
               "options": [
                     {
                     "id": 1,
@@ -103,7 +103,7 @@
           {
             "id": 5,
             "description": "Sin los pulmones se puede respirar.",
-            "imagen": "",
+            "imagen": "./assets/img/actividades/respiratorio/pulmones.svg",
             "options": [
                   {
                   "id": 1,

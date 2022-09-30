@@ -8,7 +8,7 @@
           {
               "id": 0,
               "description": "El sistema nervioso controla todo lo que haces; por ejemplo, la respiración, el caminar, lo que piensas y lo que sientes.",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/nervioso/acciones.svg",
               "options": [
                   {
                     "id": 1,
@@ -27,7 +27,7 @@
           {
               "id": 1,
               "description": "El funcionamiento básico del sistema nervioso depende en gran medida de unas células diminutas llamadas neuronas.",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/nervioso/neurona.svg",
               "options": [
                  {
                     "id": 1,
@@ -46,7 +46,7 @@
           {
               "id": 2,
               "description": "El cerebro controla todo el cuerpo.",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/nervioso/cerebro.svg",
               "options": [
                   {
                     "id": 1,
@@ -65,7 +65,7 @@
           {
               "id": 3,
               "description": "Los nervios del cuerpo son como cables que llevan señales de comunicación o impulsos por todo el cuerpo.",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/nervioso/nervios.svg",
               "options": [
                     {
                     "id": 1,
@@ -84,7 +84,7 @@
           {
               "id": 4,
               "description": "La médula espinal sirve de soporte para el cuerpo.",
-              "imagen": "",
+              "imagen": "./assets/img/actividades/nervioso/medula.svg",
               "options": [
                     {
                     "id": 1,

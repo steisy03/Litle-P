@@ -14,12 +14,10 @@ const seleccionPregunta = `<div class="row ">
     <p><strong>{{QUESTION}}</strong></p>
 </div>
 </div>
-<div class="row justify-content-center ">
-<div class="col-6 ">
-    <div class="card ">
-         <img src="{{IMAGEN}}" alt=" " class="card-img-top ">
+<div class="row justify-content-center">
+    <div class="col-lg-6 d-flex justify-content-center">
+        <img src="{{IMAGEN}}" class="img-fluid">
     </div>
-</div>
 </div>
 
 <div class="respuestasSelect mt-3 ">
