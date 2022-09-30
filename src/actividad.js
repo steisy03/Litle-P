@@ -103,7 +103,7 @@ let contador = 0,
                 .replace( "{{ID}}", element.id )
                 .replace( "{{IDI}}", element.id )
                 .replace( "{{ANSWERDES}}", element.description );
-                //.replace("{{IMAGENRESPUESTA}}", element.imagen);
+                                //.replace("{{IMAGENRESPUESTA}}", element.imagen);
         })
         respuestas.innerHTML = sp;
         let listRespuestas = document.getElementsByClassName("ra");
