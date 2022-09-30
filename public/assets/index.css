@@ -340,3 +340,8 @@ nav.navbar {
 .card h5 a:link, a:visited, a:active {
     text-decoration:none;
 }
+
+#buscarDiccionario:focus, button.none-shadow:focus{
+    box-shadow: none;
+
+}
