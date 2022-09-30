@@ -3,10 +3,10 @@
   "description": "Selecciona la respuesta correcta.",
 	"type": "multiple",
   "mode":"IXI",
-	"score": 3,
+	"score": 4,
 	"questions": [
         {
-            "id": 1,
+            "id": 0,
             "description": "¿Qué órgano pertenece al sistema circulatorio? ",
             "imagen": "",
             "options": [
@@ -30,7 +30,7 @@
             "score": 1
         },
         {
-            "id": 2,
+            "id": 1,
             "description": "¿Qué órgano pertenece al sistema digestivo?",
             "imagen": "",
             "options": [
@@ -54,7 +54,7 @@
             "score": 1
         },
         {
-            "id": 3,
+            "id": 2,
             "description": "¿Qué órgano pertenece al sistema nervioso?",
             "imagen": "",
             "options": [
@@ -70,8 +70,8 @@
                 },
                 {
                   "id": 3,
-                  "description": "Nervios",
-                  "imagen": "./assets/img/actividades/nervioso/nervios.svg"
+                  "description": "Riñones",
+                  "imagen": "./assets/img/actividades/excretor/riñones.svg"
                 }
             ],
             "answer": 1,
