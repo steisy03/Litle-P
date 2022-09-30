@@ -4,7 +4,7 @@ let tablaContenidos;
 
 window.onload = function() {
     //DECLARAR
-    tablaContenidos = document.getElementById('tablaContenidos');
+    tablaContenidos = document.getElementById('contenidos');
     //
     tablaContenidos.innerHTML = tablaContenido;
 }
