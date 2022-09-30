@@ -1,52 +1,28 @@
 {
-    "id": 2,
-    "description": "Adivina la respuesta. A continuación se te dan una serie de pistas para que selecciones la respuesta correcta en cada caso.",
+    "id": 3,
+    "description": "Selecciona la respuesta correcta.",
 	"type": "multiple",
-    "mode":"TXI",
+    "mode":"IXI",
 	"score": 3,
 	"questions": [
         {
-            "id": 0,
-            "description": "El órgano del sistema digestivo por el que entran los alimentos al cuerpo, se llama:",
-            "imagen": "",
-            "options": [
-                {
-                  "id": 1,
-                  "description": "Boca",
-                  "imagen": ""
-                },
-                {
-                  "id": 2,
-                  "description": "Esófago",
-                  "imagen": ""
-                },
-                {
-                  "id": 3,
-                  "description": "Estómago",
-                  "imagen": ""
-                }
-            ],
-            "answer": 1,
-            "score": 1
-        },
-        {
             "id": 1,
-            "description": "Es el órgano del sistema digestivo que convierte los alimentos en nutrientes para tener fuerza y energía.",
+            "description": "¿Que organo pertenece al sistema circulatorio? ",
             "imagen": "",
             "options": [
                 {
                   "id": 1,
-                  "description": "Intestino delgado",
+                  "description": "médula espinal",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "Intestino grueso",
+                  "description": "cerebro",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "Faringe",
+                  "description": "nervios",
                   "imagen": ""
                 }
             ],
@@ -55,22 +31,46 @@
         },
         {
             "id": 2,
-            "description": "Es el órgano que fabrica unos jugos que ayudan al cuerpo a digerir las grasas y las proteínas.",
+            "description": "Este órgano sirve de soporte al cuerpo.",
             "imagen": "",
             "options": [
                 {
                   "id": 1,
-                  "description": "El páncrea",
+                  "description": "médula espinal",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "La boca",
+                  "description": "cerebro",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "El hígado",
+                  "description": "nervios",
+                  "imagen": ""
+                }
+            ],
+            "answer": 1,
+            "score": 1
+        },
+        {
+            "id": 3,
+            "description": "Son cables que envían señales al cerebro.",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "médula espinal",
+                  "imagen": ""
+                },
+                {
+                  "id": 2,
+                  "description": "cerebro",
+                  "imagen": ""
+                },
+                {
+                  "id": 3,
+                  "description": "nervios",
                   "imagen": ""
                 }
             ],

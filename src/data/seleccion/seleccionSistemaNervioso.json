@@ -6,7 +6,7 @@
 	"score": 3,
 	"questions": [
         {
-            "id": 1,
+            "id": 0,
             "description": "El órgano que ves en pantalla es: ",
             "imagen": "",
             "options": [
@@ -30,7 +30,7 @@
             "score": 1
         },
         {
-            "id": 2,
+            "id": 1,
             "description": "Este órgano sirve de soporte al cuerpo.",
             "imagen": "",
             "options": [
@@ -54,7 +54,7 @@
             "score": 1
         },
         {
-            "id": 3,
+            "id": 2,
             "description": "Son cables que envían señales al cerebro.",
             "imagen": "",
             "options": [
