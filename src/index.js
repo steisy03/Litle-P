@@ -1,16 +1,12 @@
-import Router from "./libs/router";
-import contenido from "./components/contenido";
-import inicio from "./components/inicio";
-import actividades from "./components/actividades";
-import listaLectura from "./components/listaLectura";
-import prueba from "./components/prueba";
-import diccionario from "./components/diccionario";
-
+import { tablaContenido } from './template/links';
+let tablaContenidos, inicioItem;
 
 window.onload = function() {
-    let routes = [
-        contenido, inicio, actividades, listaLectura, prueba, diccionario
-    ];
 
-    new Router("app", routes);
+    tablaContenidos = document.getElementById('contenidos');
+    tablaContenidos.innerHTML = tablaContenido;
+
+    inicioItem = document.getElementById('inicioItem');
+    inicioItem.style.display = 'none';
+
 }
