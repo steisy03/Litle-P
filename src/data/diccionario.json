@@ -1,73 +1,73 @@
 [
     {
         "nombre": "Sistema",
-        "tipo": "nombre masculino. Biología",
+        "tipo": "Nombre masculino. Biología",
         "descripcion": "Un sistema es un grupo de piezas que hacen funcionar algo. Por ejemplo, todas las piezas de un carro permiten que pueda correr. De la misma forma, nuestro cuerpo humano tiene muchos órganos que realizan una tarea única. A ese grupo de órganos que tiene nuestro cuerpo, se le llama sistema.",
         "imagen": "./assets/img/diccionario/sistemasDiccionario.png"
     },
     {
         "nombre": "Corazón",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "Es un músculo hueco que se encarga de bombear la sangre al resto del cuerpo, en un proceso conocido como circulación sanguínea.",
         "imagen": "./assets/img/diccionario/corazonDiccionario.png"
     },
     {
         "nombre": "Vasos sanguíneos",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "Se dividen en arterias, venas y vasos capilares, su función es la de dejar pasar la sangre desde el corazón hasta las extremidades y órganos, se diferencian por su tamaño y la cantidad de sangre que pasa por ellos siendo las arterias los vasos sanguíneos más grandes, luego las venas tienen un tamaño mediano y los vasos capilares son los más pequeños.",
         "imagen": "./assets/img/diccionario/vasosSanguineos.png"
     },
     {
         "nombre": "Arterias",
-        "tipo": "nombre femenino",
+        "tipo": "Nombre femenino",
         "descripcion": "Llevan sangre rica en oxígeno y nutrientes del corazón a todas las partes del cuerpo).",
         "imagen": "./assets/img/diccionario/arterias.png"
     },
     {
         "nombre": "Venas",
-        "tipo": "nombre femenino",
+        "tipo": "Nombre femenino",
         "descripcion": "Transportan la sangre pobre en oxígeno y nutrientes de vuelta al corazón.",
         "imagen": "./assets/img/diccionario/venas.png"
     },
     {
         "nombre": "Estómago",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "Es el órgano a donde llegan los alimentos que son transportados por el esófago y es la porción más ancha del tubo digestivo. En él tiene lugar la digestión química de las proteínas por la acción de la pepsina y el ácido clorhídrico.",
         "imagen": "./assets/img/diccionario/estomagoDiccionario.png"
     },
     {
         "nombre": "Intestino grueso",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "Se encarga de rechazar los alimentos que no son buenos para el cuerpo, haciendo que vayas al baño. El intestino grueso es, efectivamente, más grueso que el intestino delgado, y es casi la última parada en el tubo digestivo. Al igual que el intestino delgado, está replegado sobre sí mismo en el interior de tu cuerpo.",
         "imagen": "./assets/img/diccionario/instestinoGrueso.png"
     },
     {
         "nombre": "Intestino delgado",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "Se encarga de rechazar los alimentos que no son buenos para el cuerpo, haciendo que vayas al baño. El intestino grueso es, efectivamente, más grueso que el intestino delgado, y es casi la última parada en el tubo digestivo. Al igual que el intestino delgado, está replegado sobre sí mismo en el interior de tu cuerpo.",
         "imagen": "./assets/img/diccionario/instestinoDelgadoDiccionario.png"
     },
     {
         "nombre": "Hígado",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "Es el órgano sólido más grande del cuerpo. El hígado realiza muchos trabajos, pero los tres más importantes son los siguientes: purifica la sangre, produce un líquido digestivo importante, denominado “bilis” y almacena energía en forma de azúcar, denominada “glucógeno”.",
         "imagen": "./assets/img/diccionario/higadoDiccionario.png"
     },
     {
         "nombre": "Riñones",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "Los riñones hacen muchas cosas, pero su trabajo más importante es eliminar los desechos de la sangre y fabricar la orina (pipí). El tracto urinario transporta estos desechos hacia fuera del cuerpo cuando una persona hace pipí.",
         "imagen": "./assets/img/diccionario/riñonesDiccionario.png"
     },
     {
         "nombre": "Cerebro",
-        "tipo": "nombre masculino",
+        "tipo": "Nombre masculino",
         "descripcion": "El cerebro controla lo que pensamos y sentimos, cómo aprendemos y recordamos y la forma en que nos movemos. También controla muchas cosas de las que apenas nos damos cuenta, como el latido del corazón y la digestión de la comida.",
         "imagen": "./assets/img/diccionario/cerebroDiccionario.png"
     },
     {
         "nombre": "Nariz",
-        "tipo": "nombre femenino",
+        "tipo": "Nombre femenino",
         "descripcion": "La nariz es un órgano importante por muchas razones. Naturalmente, te permite oler. La nariz es también la principal puerta del sistema respiratorio- esto significa que cumple la función más importante que te permite respirar.",
         "imagen": "./assets/img/diccionario/narizDiccionario.png"
     }
