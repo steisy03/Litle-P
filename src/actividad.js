@@ -9,6 +9,8 @@ const vofRespiratorio = require('./data/vof/vofSistemaRespiratorio.json');
 const seleccionCirculatorio = require('./data/seleccion/seleccionSistemaCirculatorio.json');
 const seleccionDisgestivo = require('./data/seleccion/seleccionSistemaDigestivo.json');
 const seleccionNervioso = require('./data/seleccion/seleccionSistemaNervioso.json');
+const seleccionOrganos = require('./data/seleccion/seleccionMultipleOrganos.json');
+
 //
 let tmpAlert = `<div id="alerta" class="alert alert-warning d-flex align-items-center" role="alert">
 <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
@@ -70,6 +72,9 @@ let contador = 0,
         }else if( option == 'seleccionCirculatorio' ){
             setVariablesSeleccion( seleccionCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
             volver = 'seleccionCirculatorio';
+        }else if(option == 'seleccionOrganos'){
+            setVariablesSeleccion(seleccionOrganos,seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'seleccionOrganos';
         }
         //
         llenarActividadSeleccion();

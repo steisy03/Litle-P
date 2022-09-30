@@ -26,7 +26,7 @@
           },
           {
               "id": 1,
-              "description": "El aparato digestivo está constituido por un tubo, el tubo digestivo.",
+              "description": "Mediante unos procesos mecánicos y otros químicos, los alimentos son descompuestos en nutrientes que pueden ser absorbidos e incorporados al torrente sanguíneo, en el estómago. ",
               "imagen": "./assets/img/actividades/digestivo/tubo.svg",
               "options": [
                  {
@@ -97,7 +97,7 @@
                     "imagen": ""
                   }
               ],
-              "answer": 1,
+              "answer": 2,
               "score": 1
           },
           {

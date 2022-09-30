@@ -1,81 +1,105 @@
 {
-    "id": 3,
-    "description": "Selecciona la respuesta correcta.",
+  "id": 3,
+  "description": "Selecciona la respuesta correcta.",
 	"type": "multiple",
-    "mode":"IXI",
-	"score": 3,
+  "mode":"IXI",
+	"score": 4,
 	"questions": [
         {
-            "id": 1,
-            "description": "¿Que organo pertenece al sistema circulatorio? ",
+            "id": 0,
+            "description": "¿Qué órgano pertenece al sistema circulatorio? ",
             "imagen": "",
             "options": [
                 {
                   "id": 1,
-                  "description": "médula espinal",
-                  "imagen": ""
+                  "description": "Médula espinal",
+                  "imagen": "./assets/img/actividades/nervioso/medula.svg"
                 },
                 {
                   "id": 2,
-                  "description": "cerebro",
-                  "imagen": ""
+                  "description": "Cerebro",
+                  "imagen": "./assets/img/actividades/nervioso/cerebro.svg"
                 },
                 {
                   "id": 3,
-                  "description": "nervios",
-                  "imagen": ""
+                  "description": "Corazón",
+                  "imagen": "./assets/img/actividades/circulatorio/corazon.svg"
                 }
             ],
-            "answer": 1,
+            "answer": 3,
+            "score": 1
+        },
+        {
+            "id": 1,
+            "description": "¿Qué órgano pertenece al sistema digestivo?",
+            "imagen": "",
+            "options": [
+                {
+                  "id": 1,
+                  "description": "Corazón",
+                  "imagen": "./assets/img/actividades/circulatorio/corazon.svg"
+                },
+                {
+                  "id": 2,
+                  "description": "Estómago",
+                  "imagen": "./assets/img/actividades/digestivo/estomago.svg"
+                },
+                {
+                  "id": 3,
+                  "description": "Nervios",
+                  "imagen": "./assets/img/actividades/nervioso/nervios.svg"
+                }
+            ],
+            "answer": 2,
             "score": 1
         },
         {
             "id": 2,
-            "description": "Este órgano sirve de soporte al cuerpo.",
+            "description": "¿Qué órgano pertenece al sistema nervioso?",
             "imagen": "",
             "options": [
                 {
                   "id": 1,
-                  "description": "médula espinal",
-                  "imagen": ""
+                  "description": "Cerebro",
+                  "imagen": "./assets/img/actividades/nervioso/cerebro.svg"
                 },
                 {
                   "id": 2,
-                  "description": "cerebro",
-                  "imagen": ""
+                  "description": "Intestino Grueso",
+                  "imagen": "./assets/img/actividades/digestivo/intestinoGrueso.svg"
                 },
                 {
                   "id": 3,
-                  "description": "nervios",
-                  "imagen": ""
+                  "description": "Riñones",
+                  "imagen": "./assets/img/actividades/excretor/riñones.svg"
                 }
             ],
             "answer": 1,
             "score": 1
-        },
+        }, 
         {
-            "id": 3,
-            "description": "Son cables que envían señales al cerebro.",
-            "imagen": "",
-            "options": [
-                {
-                  "id": 1,
-                  "description": "médula espinal",
-                  "imagen": ""
-                },
-                {
-                  "id": 2,
-                  "description": "cerebro",
-                  "imagen": ""
-                },
-                {
-                  "id": 3,
-                  "description": "nervios",
-                  "imagen": ""
-                }
-            ],
-            "answer": 1,
-            "score": 1
-        }
+          "id": 3,
+          "description": "¿Qué órgano pertenece al sistema excretor?",
+          "imagen": "",
+          "options": [
+              {
+                "id": 1,
+                "description": "Riñones",
+                "imagen": "./assets/img/actividades/excretor/riñones.svg"
+              },
+              {
+                "id": 2,
+                "description": "Huesos",
+                "imagen": "./assets/img/actividades/oseo/huesos.svg"
+              },
+              {
+                "id": 3,
+                "description": "Boca",
+                "imagen": "./assets/img/actividades/digestivo/boca.svg"
+              }
+          ],
+          "answer": 1,
+          "score": 1
+      }
     ]
 }
