@@ -17,7 +17,7 @@ const seleccionPregunta = `<div class="row ">
 <div class="row justify-content-center ">
 <div class="col-6 ">
     <div class="card ">
-         <!-- <img src="../assets/img/lapiz.png " alt=" " class="card-img-top "> -->
+         <img src="{{IMAGEN}}" alt=" " class="card-img-top ">
     </div>
 </div>
 </div>
