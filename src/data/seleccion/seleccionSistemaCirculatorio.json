@@ -79,22 +79,22 @@
         },
         {
             "id": 3,
-            "description": "Es una enfermedad circulatoria común.",
+            "description": "Es un tejido vivo formado por líquidos y sólidos. La parte líquida, llamada plasma, contiene agua, sales y proteínas.",
             "imagen": "",
             "options": [
                 {
                   "id": 1,
-                  "description": "Diarrea",
+                  "description": "Sudor",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "Infarto",
+                  "description": "Orina",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "Diabetes",
+                  "description": "Sangre",
                   "imagen": ""
                 }
             ],

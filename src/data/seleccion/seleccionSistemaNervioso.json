@@ -1,28 +1,28 @@
 {
-    "id": 3,
-    "description": "Selecciona la respuesta correcta. Lee detenidamente las preguntas o afirmaciones y selecciona la respuesta correcta en cada caso.",
+  "id": 3,
+  "description": "Selecciona la respuesta correcta. Lee detenidamente las preguntas o afirmaciones y selecciona la respuesta correcta en cada caso.",
 	"type": "multiple",
-    "mode":"IXT",
+  "mode":"IXT",
 	"score": 3,
 	"questions": [
         {
             "id": 0,
             "description": "El órgano que ves en pantalla es: ",
-            "imagen": "",
+            "imagen": "./assets/img/actividades/nervioso/cerebro.svg",
             "options": [
                 {
                   "id": 1,
-                  "description": "médula espinal",
+                  "description": "Médula espinal",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "cerebro",
+                  "description": "Cerebro",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "nervios",
+                  "description": "Nervios",
                   "imagen": ""
                 }
             ],
@@ -36,17 +36,17 @@
             "options": [
                 {
                   "id": 1,
-                  "description": "médula espinal",
+                  "description": "Médula espinal",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "cerebro",
+                  "description": "Cerebro",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "nervios",
+                  "description": "Nervios",
                   "imagen": ""
                 }
             ],
@@ -60,21 +60,21 @@
             "options": [
                 {
                   "id": 1,
-                  "description": "médula espinal",
+                  "description": "Médula espinal",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "cerebro",
+                  "description": "Cerebro",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "nervios",
+                  "description": "Nervios",
                   "imagen": ""
                 }
             ],
-            "answer": 1,
+            "answer": 3,
             "score": 1
         }
     ]
