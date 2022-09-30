@@ -159,7 +159,9 @@ nav.navbar {
 .contenido li {
     list-style: none;
 }
-
+.cajitas a:link, a:visited, a:active {
+    text-decoration:none;
+}
 .contenido li {
     color: #669bbc;
 }
@@ -238,8 +240,6 @@ nav.navbar {
 
 #actividadesRecomendadas .card:hover {
     cursor: pointer;
-    color: #fff;
-    background-color: #003049;
 }
 
 #actividadesRecomendadas .card .card-body {
@@ -336,4 +336,7 @@ nav.navbar {
 
 .texto {
     margin-bottom: 0;
+}
+.card h5 a:link, a:visited, a:active {
+    text-decoration:none;
 }
