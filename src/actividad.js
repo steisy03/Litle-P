@@ -10,6 +10,13 @@ const seleccionCirculatorio = require('./data/seleccion/seleccionSistemaCirculat
 const seleccionDisgestivo = require('./data/seleccion/seleccionSistemaDigestivo.json');
 const seleccionNervioso = require('./data/seleccion/seleccionSistemaNervioso.json');
 //
+let tmpAlert = `<div id="alerta" class="alert alert-warning d-flex align-items-center" role="alert">
+<svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+<div>
+  Debe seleccionar una opcion antes de continuar.
+</div>
+</div>`;
+//
 let contador = 0, 
     totalPreguntas = 0,
     actividad, 
@@ -71,9 +78,9 @@ let contador = 0,
             .replace( "{{ID}}", data.id )
             .replace( "{{DESCRIPTION}}", data.description );
         pregunta = document.getElementById('pregunta');
-        myAlert = document.querySelector('.alert');
-        bsAlert = new bootstrap.Alert(myAlert);
-        bsAlert.close();
+        document.getElementById("volverAtras").addEventListener('click', () => {
+            window.location = 'actividades.html';
+        })
         llenarPregunta();
     }
 
@@ -82,7 +89,9 @@ let contador = 0,
         let value = ueObject.getAttribute("value");
         respuestaSeleccionadas = respuestaSeleccionadas.filter(e=> e.question != contador);
         respuestaSeleccionadas.push({"question":contador, "value":value});
-        console.log(respuestaSeleccionadas);
+        let alertNode = document.getElementById('alerta');
+        let alert = new bootstrap.Alert(alertNode)
+        alert.close();
     }
 
     function llenarPregunta(){
@@ -123,6 +132,8 @@ let contador = 0,
                 llenarPregunta();
                 let element = document.querySelector("input[name=actividadUno][value='"+found?.value+"']");
                 element != null ? element.checked = true :null 
+            } else {
+                document.getElementById("tmpAlert").innerHTML = tmpAlert;
             }
         });
         finalizar.addEventListener("click", () => finalizarActividadSeleccion())
