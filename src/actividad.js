@@ -16,6 +16,8 @@ let tmpAlert = `<div id="alerta" class="alert alert-warning d-flex align-items-c
   Debe seleccionar una opcion antes de continuar.
 </div>
 </div>`;
+
+let tmpImegen = `<img src="" class="card-img-top" alt="">`;
 //
 let contador = 0, 
     totalPreguntas = 0,
@@ -144,8 +146,8 @@ let contador = 0,
             sp += aTemplate
                 .replace( "{{ID}}", element.id )
                 .replace( "{{IDI}}", element.id )
-                .replace( "{{ANSWERDES}}", element.description );
-                                //.replace("{{IMAGENRESPUESTA}}", element.imagen);
+                .replace( "{{ANSWERDES}}", element.description )
+                .replace("{{IMAGENRESPUESTA}}", element.imagen == '' ? '' : `<img src="${element.imagen}" class="card-img-top" alt="">`);
         })
         respuestas.innerHTML = sp;
         let listRespuestas = document.getElementsByClassName("ra");

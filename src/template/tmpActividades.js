@@ -2,6 +2,7 @@ const seleccionRespuesta = `<div class="col-lg-4 d-flex justify-content-center">
 <label>
     <input value={{IDI}} data-id="{{ID}}" type="radio" name="actividadUno" class="card-input-element ra" />
       <div class="card card-default card-input">
+        {{IMAGENRESPUESTA}}
         <div class="card-body">
             <span>{{ANSWERDES}}</span>
         </div>
