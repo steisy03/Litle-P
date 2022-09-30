@@ -142,7 +142,7 @@ const finalizarActividad = `
                     <div class="row  justify-content-center">
                         <div class="col-4">
                             <div class="d-grid gap-2">
-                                <button id="volerInicio" type="button" class="btn btn-success btn-lg">Ir al inicio</button>
+                                <button id="volerInicio" type="button" class="btn btn-success btn-lg">Lista de Actividades</button>
                             </div>
                         </div>
                         <div class="col-4">

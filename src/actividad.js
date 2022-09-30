@@ -21,17 +21,48 @@ let contador = 0,
     respuestaSeleccionadas = [],
     puntuacion,
     puntuacionObtenida = 0,
+    volver,
     data, //? data: informaciones de la actividad
     template, //? template: formatp base de la actividad (html)
     qTemplate, //? qTemplate (question template): formato para la pregunta (html)
     aTemplate; //? aTemplate (answer template): formato para las respuestas (html)
-//
-
 
     window.onload = function() {
         actividad = document.getElementById('actividad');
         //
-        setVariablesSeleccion( seleccionCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+        const url = window.location.search;
+        const urlParams = new URLSearchParams(url);
+        const option = urlParams.get('actividad');
+        //
+        if( option == 'vofCirculatorio' ){
+            setVariablesSeleccion( vofCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'vofCirculatorio';
+        }else if( option == 'vofDisgestivo' ){
+            setVariablesSeleccion( vofDisgestivo, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'vofDisgestivo';
+        }else if( option == 'vofExcretor' ){
+            setVariablesSeleccion( vofExcretor, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'vofExcretor';
+        }else if( option == 'vofNervioso' ){
+            setVariablesSeleccion( vofNervioso, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'vofNervioso';
+        }else if( option == 'vofOseo' ){
+            setVariablesSeleccion( vofOseo, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'vofOseo';
+        }else if( option == 'vofRespiratorio' ){
+            setVariablesSeleccion( vofRespiratorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'vofRespiratorio';
+        }else if( option == 'seleccionDisgestivo' ){
+            setVariablesSeleccion( seleccionDisgestivo, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'seleccionDisgestivo';
+        }else if( option == 'seleccionNervioso' ){
+            setVariablesSeleccion( seleccionNervioso, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'seleccionNervioso';
+        }else if( option == 'seleccionCirculatorio' ){
+            setVariablesSeleccion( seleccionCirculatorio, seleccionActividad, seleccionPregunta, seleccionRespuesta );
+            volver = 'seleccionCirculatorio';
+        }
+        //
         llenarActividadSeleccion();
     }
 
@@ -155,6 +186,11 @@ let contador = 0,
             actividad.innerHTML = finalizarActividad
                 .replace( "{{PUNTUACION}}", resultado )
                 .replace( "{{MENSAJE}}", mensaje);
-            console.log(resultado);
+            document.getElementById("realizarNuevo").addEventListener('click', () => {
+                window.location = 'actividad.html?actividad=' + volver;
+            });
+            document.getElementById("volerInicio").addEventListener('click', () => {
+                window.location = 'actividades.html';
+            })
         }
     }
