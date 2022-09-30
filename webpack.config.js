@@ -4,6 +4,7 @@ module.exports = {
     actividad: "./src/actividad.js",
     diccionario: "./src/diccionario.js",
     actividades: "./src/actividades.js",
+    listaLectura: "./src/listaLectura.js",
   },
   output: {
     path: __dirname + "/public/app",
