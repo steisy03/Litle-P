@@ -12,17 +12,17 @@
             "options": [
                 {
                   "id": 1,
-                  "description": "arterias y venas",
-                  "imagen": ""
+                  "description": "Arterias y venas",
+                  "imagen": "./assets/img/actividades/respiratorio/exhalar.svg"
                 },
                 {
                   "id": 2,
-                  "description": "corazón",
+                  "description": "Corazón",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "hígado",
+                  "description": "Hígado",
                   "imagen": ""
                 }
             ],
@@ -41,12 +41,12 @@
                 },
                 {
                   "id": 2,
-                  "description": "venas",
+                  "description": "Venas",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "corazón",
+                  "description": "Corazón",
                   "imagen": ""
                 }
             ],
@@ -60,17 +60,17 @@
             "options": [
                 {
                   "id": 1,
-                  "description": "corazón ",
+                  "description": "Corazón ",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "vasos capilares",
+                  "description": "Vasos capilares",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "venas",
+                  "description": "Venas",
                   "imagen": ""
                 }
             ],
@@ -84,17 +84,17 @@
             "options": [
                 {
                   "id": 1,
-                  "description": "diarrea",
+                  "description": "Diarrea",
                   "imagen": ""
                 },
                 {
                   "id": 2,
-                  "description": "infarto",
+                  "description": "Infarto",
                   "imagen": ""
                 },
                 {
                   "id": 3,
-                  "description": "diabetes",
+                  "description": "Diabetes",
                   "imagen": ""
                 }
             ],
